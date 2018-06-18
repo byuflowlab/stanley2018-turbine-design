@@ -1,0 +1,15 @@
+The variable rotor diameter and turbine power rating in this study also must be accounted for in structural analysis.  To do so, we used another model developed at NREL called RotorSE\cite{ning2013rotorse} to calculate the rotor mass, rated and extreme thrust, rated torque, rated wind speed, and moments of inertia. RotorSE is a complex tool, which allows the user to fully define a rotor and perform analysis. However, it is slow, not well suited for an optimization framework. To speed up the rotor calculations in our optimization, we created a surrogate model on the results provided by RotorSE. We sampled rotor diameters evenly spaced from 46 meters to 160 meters, ever six meters, and rated powers from 0.5 megawatts to ten megawatts, every 0.5 kilowatts. For each combination of rotor diameter and rated power, we used RotorSE to minimize the blade mass using the location of max chord, and the blade chord and twist distributions as design variables. The optimization was constrained such that the turbine blades would be structurally sound, and the power coefficient was greater than 0.42. Note that we did not vary the airfoils in the optimizations. After each converged optimization, we applied a quadratic bivariate spline to each of the parameters of interest, which we then used in the wind farm optimization. By creating the surrogate, we achieved the accuracy of RotorSE without the large associated time requirement, as well as fast and easy analytic gradients. Figure \ref{rotor_nacelle} shows the normalized surface fits for each of the variables of interest.
+
+
+\begin{figure}[htbp]
+  \centering
+  \subfloat[Rated Thrust]{\includegraphics[trim={5cm 0 1cm 1cm},clip,width=0.33\textwidth]{Figures/rated_thrust.pdf}\label{rated_thrust}}
+  \subfloat[Rated Torque]{\includegraphics[trim={5cm 0 1cm 1cm},clip,width=0.33\textwidth]{Figures/rated_torque.pdf}\label{rated_torque}} 
+  \subfloat[Rated Wind Speed]{\includegraphics[trim={5cm 0 1cm 1cm},clip,width=0.33\textwidth]{Figures/rated_wind_speed.pdf}\label{rated_wind_speed}}\\
+  \subfloat[X Moment of Inertia]{\includegraphics[trim={5cm 0 1cm 1cm},clip,width=0.33\textwidth]{Figures/x_mom_inertia.pdf}\label{xI}} 
+  \subfloat[Y Moment of Inertia]{\includegraphics[trim={5cm 0 1cm 1cm},clip,width=0.33\textwidth]{Figures/y_mom_inertia.pdf}\label{yI}}
+  \subfloat[Z Moment of Inertia]{\includegraphics[trim={5cm 0 1cm 1cm},clip,width=0.33\textwidth]{Figures/z_mom_inertia.pdf}\label{zI}} \\
+  \subfloat[Blade Mass]{\includegraphics[trim={5cm 0 1cm 1cm},clip,width=0.33\textwidth]{Figures/blade_mass.pdf}\label{blade_mass}}
+  \subfloat[Extreme Thrust]{\includegraphics[trim={5cm 0 1cm 1cm},clip,width=0.33\textwidth]{Figures/extreme_thrust.pdf}\label{extreme_thrust}}
+  \caption{\label{rotor_nacelle} The spline fits to optimized RotorSE data. These fits were used to obtain the desired parameters of rotor mass, rated and extreme thrust, rated torque, rated wind speed, and moments of inertia as functions of the rotor diameter and rated power.}
+\end{figure}
