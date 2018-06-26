@@ -14,17 +14,24 @@ Figure \ref{circular_results} shows the optimal COE results for the circular win
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=\textwidth]{Figures/circular_results1.pdf}
+  \includegraphics[width=0.8\textwidth]{Figures/circular_results1.pdf}
   \caption{\label{circular_results} The optimal COE results for the circular wind farm layout with 32 turbines. Each of the subfigures corresponds to optimization runs with a different shear exponent, from left to right $\alpha=0.075,0.175,0.275$. Within each subfigure, the x axis shows the size of the wind farm based on the spacing multiplier, from left to right $\beta=0.5,1.0,1.5$. The different points represent the layout optimization, sequential turbine-design-then-layout optimization, coupled layout-and-turbine-design optimization with homogeneous turbine design throughout the farm, and layout-and-turbine-design optimization with two different turbine design groups.}
 \end{figure}
 
 \subsubsection{Sequential Turbine Design then Layout Optimization}
-The gray dots show the optimal COE results for a sequential optimization. First, a turbine was designed for minimal COE in isolation with the freestream wind conditions. This turbine design was then used in the wind farm where the layout was optimized. For each shear exponent, the optimal turbine design was the maximum rotor diameter and turbine rating allowed by the optimizer: 160 meters and 10 megawatts. The optimal height increased with the shear exponent: 90 meters, 147 meters, and 155 meters for the shear exponents of 0.075, 0.175, and 0.275, respectively. Figure \ref{circular_turbines_seq} shows some turbines with a rotor diameter of 160 meters, and how this size compares to the baseline turbine design. Because these turbines are optimized in isolation, the design is independent of the spacing multiplier. When these optimized turbine designs are used in each wind farm instead of the baseline turbine design, there is a large COE improvement for the spacing multipliers of $\beta=1.0, 1.5$. For $\beta=1.0$, COE decreases 15.9--22.0\% compared to an optimized wind farm with the baseline turbine design. For $\beta=1.5$ the COE decrease is even larger, 24.8--26.6\% across all shear exponents. For the smallest wind farm, $\beta=0.5$, the turbine design optimized in isolation results in an infeasible farm layout. The rotor diameter is so large and the farm area so small that no layout is possible where the turbine spacing constraints are satisfied. However, even when the turbine spacing constraints were removed, this sequential turbine-design-then-layout optimization resulted in a worse COE for shear exponents of $\alpha=0.075,0.175$ compared to the layout-only optimization, and only a slightly better COE (2.3\%) for $\alpha=0.275$. 
-
+The gray dots show the optimal COE results for a sequential optimization. First, a turbine was designed for minimal COE in isolation with the freestream wind conditions. This turbine design was then used in the wind farm where the layout was optimized. 
+The rotor diameter was constrained such that the turbine spacing constraints would be satisfied in the baseline farm where the turbine would be installed. This was only applicable for the smallest wind farms, where $\beta=0.5$. 
+For each shear exponent, the optimal turbine design was the maximum rotor diameter and turbine rating allowed by the optimizer.
+%: 160 meters and 10 megawatts. 
+%The optimal height increased with the shear exponent: 90 meters, 147 meters, and 155 meters for the shear exponents of 0.075, 0.175, and 0.275, respectively.
+Figure \ref{circular_turbines_seq} shows the optimal isolated turbine designs for each shear exponent and spacing multiplier, as well as the baseline turbine design. Because these turbines are optimized in isolation, the designs for $\beta=1.0,1.5$ are the same. The only affect the spacing multiplier has on the design is a possible maximum rotor diameter (as in the case of $\beta=0.5$).
+When these optimized turbine designs are used in each wind farm instead of the baseline turbine design, there is a large COE improvement for the spacing multipliers of $\beta=1.0, 1.5$. For $\beta=1.0$, COE decreases 15.9--22.0\% compared to an optimized wind farm with the baseline turbine design. For $\beta=1.5$ the COE decrease is even larger, 24.8--26.6\% across all shear exponents. 
+%For the smallest wind farm, $\beta=0.5$, the turbine design optimized in isolation results in an infeasible farm layout. The rotor diameter is so large and the farm area so small that no layout is possible where the turbine spacing constraints are satisfied. However, even when the turbine spacing constraints were removed, this sequential turbine-design-then-layout optimization resulted in a worse COE for shear exponents of $\alpha=0.075,0.175$ compared to the layout-only optimization, and only a slightly better COE (2.3\%) for $\alpha=0.275$. 
+For the smallest wind farm, $\beta=0.5$, the turbine design optimized in isolation results in an extremely inefficient wind farm. When in the wind farm environment, exposed to much lower average wind speeds, this design results in a COE that is much worse than the baseline turbine design. The expense from a bigger and taller turbine, coupled with the strong wake interactions among turbines that are so closely spaced means that for this wind farm, optimizing the turbine in isolation actually decreases the wind farm performance. 
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=\textwidth]{Figures/turbineSizesCircular_sequential.pdf}
+  \includegraphics[width=0.8\textwidth]{Figures/turbineSizesCircular_sequential.pdf}
   \caption{\label{circular_turbines_seq} The optimal turbine heights and rotor diameters for the isolated turbine design optimization for the circular farm wind conditions. These designs were then used in the sequential turbine-design-then-layout optimizations. The columns, from left to right, show the turbines optimized for $\alpha=0.075,0.175$, and $0.275$. The rows, from top to bottom, show the baseline turbine design, the turbine optimized for the small wind farm ($\beta=0.5$), and the turbine designs for the larger wind farms ($\beta=1.0,1.5$)}
 \end{figure}
 
@@ -41,7 +48,7 @@ Figure \ref{circular_turbines_1} shows the optimal rotor diameters and hub heigh
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[trim={0.5cm 0.3cm 0.3cm 1.75cm},clip,width=\textwidth]{Figures/turbineSizesCircular_1.pdf}
+  \includegraphics[trim={0.5cm 0.3cm 0.3cm 1.75cm},clip,width=0.8\textwidth]{Figures/turbineSizesCircular_1.pdf}
   \caption{\label{circular_turbines_1} The optimal turbine heights and rotor diameters for the optimization runs with coupled layout and turbine design with homogeneous turbine design throughout the circular wind farm. Each column shows a different shear exponent, with $\alpha=0.075,0.175,0.275$ from left to right. Each row shows a different farm spacing multiplier, with $\beta=0.5,1.0,1.5$ from top to bottom.}
 \end{figure}
 
@@ -61,7 +68,7 @@ The turbine sizes for the largest wind farm, $\beta=1.5$, demonstrate the multi-
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[trim={0.5cm 0.3cm 0.3cm 1.75cm},clip,width=\textwidth]{Figures/turbineSizesCircular_2.pdf}
+  \includegraphics[trim={0.5cm 0.3cm 0.3cm 1.75cm},clip,width=0.8\textwidth]{Figures/turbineSizesCircular_2.pdf}
   \caption{\label{circular_turbines} The optimal turbine heights and rotor diameters for the optimization runs with coupled layout and turbine design with two different turbine design groups for the circular wind farm. Each column shows a different shear exponent, with $\alpha=0.075,0.175,0.275$ from left to right. Each row shows a different farm spacing multiplier, with $\beta=0.5,1.0,1.5$ from top to bottom.}
 \end{figure}
 
@@ -71,7 +78,7 @@ Figure \ref{circular_power} shows the optimal rated power of each height group f
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=\textwidth]{Figures/circlePowers.pdf}
+  \includegraphics[width=0.8\textwidth]{Figures/circlePowers.pdf}
   \caption{\label{circular_power} The optimal rated powers for the circular wind farm for the optimization runs with coupled layout and turbine design for both uniform wind farm turbine design and with two different turbine design groups. The three subfigures show a different shear exponent, with $\alpha=0.075,0.175,0.275$ from left to right. within each subfigure, the x axis shows different farm spacing multipliers, with $\beta=0.5,1.0,1.5$ from left to right.}
 \end{figure}
 
@@ -84,7 +91,7 @@ Table \ref{circular_table} shows how the optimal COE results shown in Fig. \ref{
 \begin{tabular}{p{2.5cm} c c c c c c c c c c c}
 %\begin{tabularx}{\textwidth}{|X|c|c|c|c|c|c|c|c|c|}
 \hline
-\multicolumn{10}{c}{\textbf{Circular Farm: Percent COE Decrease from Layout Only Optimization}}\\
+\multicolumn{10}{c}{\textbf{circular wind farm: percent COE decrease from layout only optimization}}\\
 \hline
  & \multicolumn{3}{c}{$\alpha=0.075$} & \multicolumn{4}{c}{$\alpha=0.175$} & \multicolumn{4}{c}{$\alpha=0.275$}\\
 \hline
@@ -104,51 +111,64 @@ coupled: 2 groups & 21.60  & 23.88  & 27.54 & & 21.67  & 25.23  &  27.90 & &  22
 
 
 
-\subsection{Princess Amalia Wind Farm Resutls}
 
+
+
+
+
+
+
+\subsection{Princess Amalia Wind Farm Results}
+
+Figure \ref{amalia_results} shows the COE results for the 60-turbine Princess Amalia wind farm optimizations.  The trends are similar to the smaller, circular wind farm. Coupled turbine design and layout optimization is superior to optimizing each sequentially, especially for the smaller wind farms where the wind speeds are much lower than the free stream. For the farms with closely spaced wind turbines, two different turbine designs in the same farm are significantly better than the farms optimized with a homogeneous turbine design. If the largest wind farms ($\beta=1.5$) benefit from two different turbine design groups, that benefit is negligible. 
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=\textwidth]{Figures/amalia_results1.pdf}
-  \caption{\label{circular_results} The optimal COE results for the Princess Amalia wind farm layout with 32 turbines. Each of the subfigures corresponds to optimization runs with a different shear exponent, from left to right $\alpha=0.075,0.175,0.275$. Within each subfigure, the x axis shows the size of the wind farm based on the spacing multiplier, from left to right $\beta=0.5,1.0,1.5$. The different points represent the layout optimization, sequential turbine-design-then-layout optimization, coupled layout-and-turbine-design optimization with homogeneous turbine design throughout the farm, and layout-and-turbine-design optimization with two different turbine design groups.}
+  \includegraphics[width=0.8\textwidth]{Figures/amalia_results1.pdf}
+  \caption{\label{amalia_results} The optimal COE results for the Princess Amalia wind farm layout with 32 turbines. Each of the subfigures corresponds to optimization runs with a different shear exponent, from left to right $\alpha=0.075,0.175,0.275$. Within each subfigure, the x axis shows the size of the wind farm based on the spacing multiplier, from left to right $\beta=0.5,1.0,1.5$. The different points represent the layout optimization, sequential turbine-design-then-layout optimization, coupled layout-and-turbine-design optimization with homogeneous turbine design throughout the farm, and layout-and-turbine-design optimization with two different turbine design groups.}
+\end{figure}
+
+Figures \ref{amalia_turbines_seq}, \ref{amalia_turbines_1},  and \ref{amalia_turbines} show the turbine rotor diameters and hub heights for the various optimization runs,  Fig. \ref{amalia_power} shows the optimal rated powers for the coupled turbine-design-and-layout optimizations, and Table \ref{amalia_table} tabulates the relative benefit of each optimization compared to the layout only optimization. The trends, and reasons behind them, are the same as for the circular wind farm optimizations. We will therefore not repeat this discussion, but will briefly discuss the significant differences between the optimizations of the 32-turbine circular wind farm and those for the 60-turbine Princess Amalia wind farm. The optimal COE values for the Princess Amalia wind farm are slightly lower across the board than the circular wind farm COE values. This is partly because there are more turbines in the Princess Amalia wind farm so a smaller portion of the total cost comes from overhead, but is partly due to the Princess Amalia wind turbines being spaced slightly farther apart than those in the circular wind farms. Another major difference between the optimal COE values of each wind farm is in the optimization case with two turbine design groups. For the Princess Amalia wind farm and a spacing multiplier of 0.5, two turbine groups provides and additional COE decrease of 6.13--9.11\% compared to the wind farm with homogeneous turbine design. This is significant, however it is not as large as the 9.01--11.45\% additional COE decrease in the circular wind farm optimizations for the same spacing multiplier. Again, the main cause of this seems to be that the circular wind farms are slightly closer together than the Princess Amalia wind farms. The conclusion remains the same, wind farms with closely spaced wind turbines greatly benefit from different turbine designs. The last significant difference between the wind farm is that the optimal turbine designs for the Princess Amalia wind farms are slightly smaller than in the circular wind farms. This is due to the different wind roses and speed distributions used to optimized each wind farm. 
+
+
+
+
+
+
+
+%\subsubsection{Sequential Turbine Design then Layout Optimization}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{Figures/turbineSizesAmalia_sequential.pdf}
+  \caption{\label{amalia_turbines_seq} The optimal turbine heights and rotor diameters for the isolated turbine design optimization for the Princess Amalia farm wind conditions. These designs were then used in the sequential turbine-design-then-layout optimizations. The columns, from left to right, show the turbines optimized for $\alpha=0.075,0.175$, and $0.275$. The rows, from top to bottom, show the baseline turbine design, the turbine optimized for the small wind farm ($\beta=0.5$), and the turbine designs for the larger wind farms ($\beta=1.0,1.5$)}
 \end{figure}
 
 
 
 
-\subsubsection{Sequential Turbine Design then Layout Optimization}
+%\subsubsection{Coupled Turbine Design and Layout Optimization}
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=\textwidth]{Figures/turbineSizesAmalia_sequential.pdf}
-  \caption{\label{amaliaturbines_seq} The optimal turbine heights and rotor diameters for the isolated turbine design optimization for the Princess Amalia farm wind conditions. These designs were then used in the sequential turbine-design-then-layout optimizations. The columns, from left to right, show the turbines optimized for $\alpha=0.075,0.175$, and $0.275$. The rows, from top to bottom, show the baseline turbine design, the turbine optimized for the small wind farm ($\beta=0.5$), and the turbine designs for the larger wind farms ($\beta=1.0,1.5$)}
-\end{figure}
-
-
-
-
-\subsubsection{Coupled Turbine Design and Layout Optimization}
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[trim={0.5cm 0.3cm 0.3cm 1.75cm},clip,width=\textwidth]{Figures/turbineSizesAmalia_1.pdf}
+  \includegraphics[trim={0.5cm 0.3cm 0.3cm 1.75cm},clip,width=0.8\textwidth]{Figures/turbineSizesAmalia_1.pdf}
   \caption{\label{amalia_turbines_1} The optimal turbine heights and rotor diameters for the optimization runs with coupled layout and turbine design with homogeneous turbine design throughout the circular wind farm. Each column shows a different shear exponent, with $\alpha=0.075,0.175,0.275$ from left to right. Each row shows a different farm spacing multiplier, with $\beta=0.5,1.0,1.5$ from top to bottom.}
 \end{figure}
 
 
 
-\subsubsection{Coupled Turbine Design and Layout Optimization with Two Turbine Groups}
+%\subsubsection{Coupled Turbine Design and Layout Optimization with Two Turbine Groups}
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[trim={0.5cm 0.3cm 0.3cm 1.75cm},clip,width=\textwidth]{Figures/turbineSizesAmalia_2.pdf}
+  \includegraphics[trim={0.5cm 0.3cm 0.3cm 1.75cm},clip,width=0.8\textwidth]{Figures/turbineSizesAmalia_2.pdf}
   \caption{\label{amalia_turbines} The optimal turbine heights and rotor diameters for the optimization runs with coupled layout and turbine design with two different turbine design groups for the circular wind farm. Each column shows a different shear exponent, with $\alpha=0.075,0.175,0.275$ from left to right. Each row shows a different farm spacing multiplier, with $\beta=0.5,1.0,1.5$ from top to bottom.}
 \end{figure}
 
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=\textwidth]{Figures/amaliaPowers.pdf}
+  \includegraphics[width=0.8\textwidth]{Figures/amaliaPowers.pdf}
   \caption{\label{amalia_power} The optimal rated powers for the Princess Amalia wind farm for the optimization runs with coupled layout and turbine design for both uniform wind farm turbine design and with two different turbine design groups. The three subfigures show a different shear exponent, with $\alpha=0.075,0.175,0.275$ from left to right. within each subfigure, the x axis shows different farm spacing multipliers, with $\beta=0.5,1.0,1.5$ from left to right.}
 \end{figure}
 
@@ -158,11 +178,11 @@ coupled: 2 groups & 21.60  & 23.88  & 27.54 & & 21.67  & 25.23  &  27.90 & &  22
 \begin{center}
 \begin{table}
 \caption{The percent COE decrease of the various optimization cases with respect to layout-only optimization performed for the Princess Amalia wind farm. This table does not show the overall desirability of the optimal wind farm, but the relative improvement of different considerations of turbine design optimization. In the table are shown results for each shear exponent, $\alpha$, as well as each spacing multiplier, $\beta$, in which the smaller spacing multipliers represent farms with turbines that are more closely spaced.}
-\label{circular_table}
+\label{amalia_table}
 \begin{tabular}{p{2.5cm} c c c c c c c c c c c}
 %\begin{tabularx}{\textwidth}{|X|c|c|c|c|c|c|c|c|c|}
 \hline
-\multicolumn{10}{c}{\textbf{Circular Farm: Percent COE Decrease from Layout Only Optimization}}\\
+\multicolumn{10}{c}{\textbf{Princess Amalia wind farm: percent COE decrease from layout only optimization}}\\
 \hline
  & \multicolumn{3}{c}{$\alpha=0.075$} & \multicolumn{4}{c}{$\alpha=0.175$} & \multicolumn{4}{c}{$\alpha=0.275$}\\
 \hline

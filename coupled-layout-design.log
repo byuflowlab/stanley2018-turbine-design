@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 JUN 2018 12:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 JUN 2018 15:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -674,14 +674,7 @@ Package color Info: Redefining color barcol on input line 2466.
 )
 LaTeX Info: Redefining \vec on input line 2.
 
-(./coupled-layout-design.aux
-
-LaTeX Warning: Label `circular_results' multiply defined.
-
-
-LaTeX Warning: Label `circular_table' multiply defined.
-
-)
+(./coupled-layout-design.aux)
 \openout1 = `coupled-layout-design.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -698,7 +691,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 17.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 17.
@@ -919,7 +913,7 @@ LaTeX Warning: Reference `circle_spacings' on page 12 undefined on input line 5
 File: Figures/shears.pdf Graphic file (type pdf)
 <use Figures/shears.pdf>
 Package pdftex.def Info: Figures/shears.pdf  used on input line 63.
-(pdftex.def)             Requested size: 503.61377pt x 209.84229pt.
+(pdftex.def)             Requested size: 402.89255pt x 167.87163pt.
 
 
 LaTeX Warning: Reference `wp075' on page 13 undefined on input line 67.
@@ -932,12 +926,7 @@ File: Figures/spacing_multipliers.pdf Graphic file (type pdf)
 <use Figures/spacing_multipliers.pdf>
 Package pdftex.def Info: Figures/spacing_multipliers.pdf  used on input line 72
 .
-(pdftex.def)             Requested size: 553.97821pt x 492.46167pt.
-
-Overfull \hbox (50.36444pt too wide) in paragraph at lines 72--75
- [][] 
- []
-
+(pdftex.def)             Requested size: 402.89255pt x 358.1379pt.
 
 LaTeX Warning: Reference `amalia_spacings' on page 13 undefined on input line 7
 8.
@@ -946,95 +935,83 @@ LaTeX Warning: Reference `amalia_spacings' on page 13 undefined on input line 7
 LaTeX Warning: Reference `circle_spacings' on page 13 undefined on input line 7
 8.
 
-) [13 <./Figures/baseline_layouts.pdf>] (./Sections/results.tex
-
-LaTeX Warning: Reference `amalia_results' on page 14 undefined on input line 5.
-
-
-
-LaTeX Warning: Reference `amalia_turbines_seq' on page 14 undefined on input li
-ne 6.
-
-
-LaTeX Warning: Reference `amalia_power' on page 14 undefined on input line 6.
-
-[14 <./Figures/shears.pdf>] [15 <./Figures/spacing_multipliers.pdf>]
-<Figures/circular_results1.pdf, id=837, 722.7pt x 433.62pt>
+) [13 <./Figures/baseline_layouts.pdf>] (./Sections/results.tex [14 <./Figures/
+shears.pdf>] [15 <./Figures/spacing_multipliers.pdf>]
+<Figures/circular_results1.pdf, id=843, 722.7pt x 433.62pt>
 File: Figures/circular_results1.pdf Graphic file (type pdf)
 <use Figures/circular_results1.pdf>
 Package pdftex.def Info: Figures/circular_results1.pdf  used on input line 17.
-(pdftex.def)             Requested size: 503.61377pt x 302.16893pt.
+(pdftex.def)             Requested size: 402.89255pt x 241.73383pt.
  [16 <./Figures/circular_results1.pdf>]
-<Figures/turbineSizesCircular_sequential.pdf, id=931, 867.24pt x 668.4975pt>
+<Figures/turbineSizesCircular_sequential.pdf, id=936, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesCircular_sequential.pdf Graphic file (type pdf)
 <use Figures/turbineSizesCircular_sequential.pdf>
 Package pdftex.def Info: Figures/turbineSizesCircular_sequential.pdf  used on i
-nput line 27.
-(pdftex.def)             Requested size: 503.61377pt x 388.20824pt.
+nput line 34.
+(pdftex.def)             Requested size: 402.89255pt x 310.56252pt.
+ [17 <./Figures/turbineSizesCircular_sequential.pdf>]
+
+LaTeX Warning: Reference `wp075' on page 18 undefined on input line 46.
 
 
-LaTeX Warning: Reference `wp075' on page 17 undefined on input line 39.
+LaTeX Warning: Reference `wp175' on page 18 undefined on input line 46.
 
 
-LaTeX Warning: Reference `wp175' on page 17 undefined on input line 39.
+LaTeX Warning: Reference `wp275' on page 18 undefined on input line 46.
 
-
-LaTeX Warning: Reference `wp275' on page 17 undefined on input line 39.
-
-[17] [18 <./Figures/turbineSizesCircular_sequential.pdf>]
-<Figures/turbineSizesCircular_1.pdf, id=996, 867.24pt x 668.4975pt>
+<Figures/turbineSizesCircular_1.pdf, id=997, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesCircular_1.pdf Graphic file (type pdf)
 <use Figures/turbineSizesCircular_1.pdf>
 Package pdftex.def Info: Figures/turbineSizesCircular_1.pdf  used on input line
- 44.
-(pdftex.def)             Requested size: 503.61377pt x 363.87923pt.
- [19 <./Figures/turbineSizesCircular_1.pdf>] [20]
-<Figures/turbineSizesCircular_2.pdf, id=1069, 867.24pt x 668.4975pt>
+ 51.
+(pdftex.def)             Requested size: 402.89255pt x 291.09966pt.
+[18] [19 <./Figures/turbineSizesCircular_1.pdf>]
+<Figures/turbineSizesCircular_2.pdf, id=1070, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesCircular_2.pdf Graphic file (type pdf)
 <use Figures/turbineSizesCircular_2.pdf>
 Package pdftex.def Info: Figures/turbineSizesCircular_2.pdf  used on input line
- 64.
-(pdftex.def)             Requested size: 503.61377pt x 363.87923pt.
-<Figures/circlePowers.pdf, id=1073, 722.7pt x 433.62pt>
+ 71.
+(pdftex.def)             Requested size: 402.89255pt x 291.09966pt.
+<Figures/circlePowers.pdf, id=1074, 722.7pt x 433.62pt>
 File: Figures/circlePowers.pdf Graphic file (type pdf)
 <use Figures/circlePowers.pdf>
-Package pdftex.def Info: Figures/circlePowers.pdf  used on input line 74.
-(pdftex.def)             Requested size: 503.61377pt x 302.16893pt.
-<Figures/amalia_results1.pdf, id=1077, 722.7pt x 433.62pt>
+Package pdftex.def Info: Figures/circlePowers.pdf  used on input line 81.
+(pdftex.def)             Requested size: 402.89255pt x 241.73383pt.
+ [20] [21 <./Figures/turbineSizesCircular_2.pdf>] [22 <./Figures/circlePowers.p
+df>]
+<Figures/amalia_results1.pdf, id=1215, 722.7pt x 433.62pt>
 File: Figures/amalia_results1.pdf Graphic file (type pdf)
 <use Figures/amalia_results1.pdf>
-Package pdftex.def Info: Figures/amalia_results1.pdf  used on input line 112.
-(pdftex.def)             Requested size: 503.61377pt x 302.16893pt.
-<Figures/turbineSizesAmalia_sequential.pdf, id=1078, 867.24pt x 668.4975pt>
+Package pdftex.def Info: Figures/amalia_results1.pdf  used on input line 127.
+(pdftex.def)             Requested size: 402.89255pt x 241.73383pt.
+ [23 <./Figures/amalia_results1.pdf>]
+<Figures/turbineSizesAmalia_sequential.pdf, id=1316, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesAmalia_sequential.pdf Graphic file (type pdf)
 <use Figures/turbineSizesAmalia_sequential.pdf>
 Package pdftex.def Info: Figures/turbineSizesAmalia_sequential.pdf  used on inp
-ut line 123.
-(pdftex.def)             Requested size: 503.61377pt x 388.20824pt.
- [21] [22 <./Figures/turbineSizesCircular_2.pdf>]
-[23 <./Figures/circlePowers.pdf>]
-<Figures/turbineSizesAmalia_1.pdf, id=1216, 867.24pt x 668.4975pt>
+ut line 143.
+(pdftex.def)             Requested size: 402.89255pt x 310.56252pt.
+<Figures/turbineSizesAmalia_1.pdf, id=1317, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesAmalia_1.pdf Graphic file (type pdf)
 <use Figures/turbineSizesAmalia_1.pdf>
 Package pdftex.def Info: Figures/turbineSizesAmalia_1.pdf  used on input line 1
-34.
-(pdftex.def)             Requested size: 503.61377pt x 363.87923pt.
-<Figures/turbineSizesAmalia_2.pdf, id=1218, 867.24pt x 668.4975pt>
+54.
+(pdftex.def)             Requested size: 402.89255pt x 291.09966pt.
+<Figures/turbineSizesAmalia_2.pdf, id=1319, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesAmalia_2.pdf Graphic file (type pdf)
 <use Figures/turbineSizesAmalia_2.pdf>
 Package pdftex.def Info: Figures/turbineSizesAmalia_2.pdf  used on input line 1
-44.
-(pdftex.def)             Requested size: 503.61377pt x 363.87923pt.
-<Figures/amaliaPowers.pdf, id=1220, 722.7pt x 433.62pt>
+64.
+(pdftex.def)             Requested size: 402.89255pt x 291.09966pt.
+<Figures/amaliaPowers.pdf, id=1321, 722.7pt x 433.62pt>
 File: Figures/amaliaPowers.pdf Graphic file (type pdf)
 <use Figures/amaliaPowers.pdf>
-Package pdftex.def Info: Figures/amaliaPowers.pdf  used on input line 151.
-(pdftex.def)             Requested size: 503.61377pt x 302.16893pt.
-) (./Sections/conclusions.tex [24 <./Figures/amalia_results1.pdf>] [25 <./Figur
-es/turbineSizesAmalia_sequential.pdf>]
-[26 <./Figures/turbineSizesAmalia_1.pdf>] [27 <./Figures/turbineSizesAmalia_2.p
-df>] [28 <./Figures/amaliaPowers.pdf>]) [29] (./coupled-layout-design.bbl
-[30] [31]) [32]
+Package pdftex.def Info: Figures/amaliaPowers.pdf  used on input line 171.
+(pdftex.def)             Requested size: 402.89255pt x 241.73383pt.
+ [24 <./Figures/turbineSizesAmalia_sequential.pdf>]) [25 <./Figures/turbineSize
+sAmalia_1.pdf>] (./Sections/conclusions.tex [26 <./Figures/turbineSizesAmalia_2
+.pdf>] [27 <./Figures/amaliaPowers.pdf>])
+(./coupled-layout-design.bbl [28] [29]) [30]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
  (./coupled-layout-design.aux)
@@ -1044,42 +1021,36 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 333.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 333.
  ) 
 Here is how much of TeX's memory you used:
- 10451 strings out of 492649
- 152954 string characters out of 6129622
- 290818 words of memory out of 5000000
- 13945 multiletter control sequences out of 15000+600000
+ 10455 strings out of 492649
+ 152936 string characters out of 6129622
+ 292617 words of memory out of 5000000
+ 13955 multiletter control sequences out of 15000+600000
  49632 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,40p,1837b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.caption.20} has been referenced but does no
-t exist, replaced by a fixed one
-
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
-18/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/tex
-mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist
-/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/tim
-es/utmri8a.pfb>
-Output written on coupled-layout-design.pdf (32 pages, 1476719 bytes).
+ 43i,12n,40p,2235b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/t
+exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on coupled-layout-design.pdf (30 pages, 1478777 bytes).
 PDF statistics:
- 1680 PDF objects out of 1728 (max. 8388607)
- 733 compressed objects within 8 object streams
- 130 named destinations out of 1000 (max. 500000)
+ 1676 PDF objects out of 1728 (max. 8388607)
+ 730 compressed objects within 8 object streams
+ 124 named destinations out of 1000 (max. 500000)
  230 words of extra memory for PDF output out of 10000 (max. 10000000)
 
