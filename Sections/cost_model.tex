@@ -1,0 +1,22 @@
+
+
+AEP is a standard objective in wind farm optimization problems because it is easy to calculate and is a valid measure when only power production is affected by the optimization. When aspects of turbine design are included as design variables, this measure is no longer appropriate. 
+Taller turbine towers can reach higher wind speeds farther from the ground, which often leads to higher AEP. But this increased energy production comes at the expense of higher turbine capital cost. Shorter turbines may also increase AEP from decreased wake interference, which would both increase AEP and decrease the cost. Changing the turbine rotor diameters can have a similar effect. Higher turbine rating allows maximum energy to be captured at higher wind speeds, but again for a higher turbine capital cost. To accurately represent these intricacies, we evaluated our wind farm by its COE.
+
+To calculate the COE, we defined the cost of the wind farm as:
+\begin{equation}
+	\text{farm cost} = \text{FCR}[\text{TCC}(z_i, D_i, R_i, \vec{d_i}, \vec{t_i}) + \text{BOS}(R_i)] + \text{O\&M}(x_i,y_i,z_i, D_i, R_i)
+\end{equation}
+where FCR was the fixed charge rate, TCC was the turbine capital cost (sum of the tower, rotor, and nacelle costs), BOS were the balance-of-station costs, and O\&M were the operation and maintenance costs. The variables $x$, $y$, $z$, $D$, $R$, $\vec{d}$, and $\vec{t}$ represented the x component of the turbine position, the y component of the turbine position, tower height, the rotor diameter, the turbine rating, the vector describing the tapered tower diameter, and the vector describing the shell thickness, respectively. The tower cost was a function of the tower mass ($m$):
+
+\begin{equation}
+	\text{Tower Cost} = \alpha m
+\end{equation}
+%
+where $\alpha = 3.08$ \$/kg. The rotor and nacelle contributions to the TCC are functions of the rotor diameter, and rated power, and are approximated with NREL's Plant\_CostsSE \citep{dykes2014plant_costsse}. The balance of station cost was a function of wind farm capacity \citep{BOS}. Operation and maintenance costs scaled with AEP and were therefore an indirect function of $x$, $y$, $z$, $D$, and $R$ as well \citep{mone2013cost}.
+
+    With the wind farm capital cost and AEP calculated, the COE is defined as:
+    \begin{equation}
+			\text{COE}(x_i,y_i,z_i, D_i, R_i, \vec{d_i}, \vec{t_i}) = \frac{\text{FCR}[\text{TCC}(z_i, D_i, R_i, \vec{d_i}, \vec{t_i}) + \text{BOS}(R_i)] + \text{O\&M}(x_i,y_i,z_i, D_i, R_i)}{\text{AEP}(x_i,y_i,z_i,D_i,R_i)}
+    \end{equation}
+              
