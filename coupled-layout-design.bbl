@@ -76,13 +76,19 @@ Erturk, A. and Inman, D.~J.: Appendix C: Modal Analysis of a Uniform Cantilever
 Feng, J. and Shen, W.~Z.: Solving the wind farm layout optimization problem
   using random search algorithm, Renewable Energy, 78, 182--192, 2015.
 
-\bibitem[{Fleming et~al.(2016)Fleming, Churchfield, Scholbrock, Clifton,
-  Schreck, Johnson, Wright, Gebraad, Annoni, Naughton
+\bibitem[{Fleming et~al.(2016{\natexlab{a}})Fleming, Churchfield, Scholbrock,
+  Clifton, Schreck, Johnson, Wright, Gebraad, Annoni, Naughton
   et~al.}]{fleming2016detailed}
 Fleming, P., Churchfield, M., Scholbrock, A., Clifton, A., Schreck, S.,
   Johnson, K., Wright, A., Gebraad, P., Annoni, J., Naughton, B., et~al.:
   Detailed field test of yaw-based wake steering, in: Journal of Physics:
-  Conference Series, vol. 753, p. 052003, IOP Publishing, 2016.
+  Conference Series, vol. 753, p. 052003, IOP Publishing, 2016{\natexlab{a}}.
+
+\bibitem[{Fleming et~al.(2016{\natexlab{b}})Fleming, Ning, Gebraad, and
+  Dykes}]{Fleming2016}
+Fleming, P., Ning, A., Gebraad, P., and Dykes, K.: Wind Plant System
+  Engineering through Optimization of Layout and Yaw Control, Wind Energy, 19,
+  329--344, \doi{10.1002/we.1836}, 2016{\natexlab{b}}.
 
 \bibitem[{Gao et~al.(2015)Gao, Yang, Lin, and Koo}]{gao2015wind}
 Gao, X., Yang, H., Lin, L., and Koo, P.: Wind turbine layout optimization using
@@ -157,11 +163,6 @@ Mon{\'e}, C., Smith, A., Maples, B., and Hand, M.: Cost of Wind Energy Review,
 Mone, C., Maples, B., and M., H.: Land-Based Wind Plant Balance-of-System Cost
   Drivers and Sensitivities, 2014.
 
-\bibitem[{Ning and Petch(2016)}]{Ning2016a}
-Ning, A. and Petch, D.: Integrated Design of Downwind Land-Based Wind Turbines
-  Using Analytic Gradients, Wind Energy, 19, 2137--2152, \doi{10.1002/we.1972},
-  2016.
-
 \bibitem[{Ning(2013{\natexlab{a}})}]{ning2013rotorse}
 Ning, S.~A.: RotorSE, Tech. rep., National Renewable Energy Laboratory (NREL),
   Golden, CO (United States), 2013{\natexlab{a}}.
@@ -188,7 +189,7 @@ Rehman, S., Halawani, T., and Husain, T.: Weibull parameters for wind speed
 \bibitem[{Stanley et~al.()Stanley, Ning, and Dykes}]{stanley2018}
 Stanley, A.~P., Ning, A., and Dykes, K.: Optimization of Turbine Design in Wind
   Farms with Multiple Hub Heights, Using Exact Analytic Gradients and
-  Structural Constraints, Wind Energy, in review.
+  Structural Constraints, Wind Energy, forthcoming.
 
 \bibitem[{Thomas et~al.(2017)Thomas, Gebraad, and Ning}]{thomas2017improving}
 Thomas, J.~J., Gebraad, P.~M., and Ning, A.: Improving the FLORIS wind plant

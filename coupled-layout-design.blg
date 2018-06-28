@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: coupled-layout-design.aux
+The style file: copernicus.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "stanley2017"
+Warning--can't use both volume and number fields in fleming2016detailed
+Warning--empty journal in jensen1983note
+Warning--empty booktitle in BOS
+Warning--empty year in stanley2018
+You've used 37 entries,
+            2811 wiz_defined-function locations,
+            1199 strings with 15527 characters,
+and the built_in function-call counts, 33020 in all, are:
+= -- 3664
+> -- 1209
+< -- 20
++ -- 559
+- -- 372
+* -- 2022
+:= -- 3361
+add.period$ -- 37
+call.type$ -- 37
+change.case$ -- 200
+chr.to.int$ -- 35
+cite$ -- 115
+duplicate$ -- 3326
+empty$ -- 1766
+format.name$ -- 485
+if$ -- 6538
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 373
+newline$ -- 120
+num.names$ -- 148
+pop$ -- 1458
+preamble$ -- 1
+purify$ -- 196
+quote$ -- 0
+skip$ -- 1946
+stack$ -- 0
+substring$ -- 1339
+swap$ -- 2749
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 333
+warning$ -- 4
+while$ -- 188
+width$ -- 0
+write$ -- 410
+(There were 5 warnings)
