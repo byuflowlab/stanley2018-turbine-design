@@ -9,14 +9,21 @@ P =
    \end{cases}
 \end{equation}
 
-\noindent In this equation, $V_{\text{eff}}$ is an effective wind speed across the entire swept area of the blades. It is defined as an area weighted average of the wind speeds across the rotor:
-%Katie: Is it a weighted area? or is it a weighted average? If the area is weighted, then you need a hypen (area-weighted average). 
+\noindent Where $C_P$ is the power coefficient, $\rho$ is the air density which we assumed was 1.1716 kg m$^{-3}$, $A$ is the swept area of the turbine rotor, and $V_{\text{eff}}$ is an effective wind speed across rotor, which is defined as:
 
 \begin{equation}
-V_{\text{eff}} = \frac{\int_A V dA }{A}
+V_{\text{eff}} = V(1-L)
 \end{equation}
 
-\noindent Again, in this equation, only the hub height velocities are considered. There is no vertical integration of the wind speed across the rotor hub. The wind shear is considered only in calculating the freestream wind speed.
+\noindent Where $V$ is the free stream wind speed at the turbine hub height, and L is the total velocity deficit.
+%It is defined as an area-weighted average of the wind speeds across the rotor:
+%Katie: Is it a weighted area? or is it a weighted average? If the area is weighted, then you need a hypen (area-weighted average). 
+
+%\begin{equation}
+%V_{\text{eff}} = \frac{\int_A V dA }{A}
+%\end{equation}
+
+%\noindent Again, in this equation, only the hub height velocities are considered. There is no vertical integration of the wind speed across the rotor hub. The wind shear is considered only in calculating the free stream wind speed.
 %Katie:Why is this? Why not do vertical integration? Out of your scope? Ignore this if you talk about this earlier in the paper, as I've jumped to methodology. 
 
 
@@ -40,12 +47,15 @@ The data we have is separated into 36 bins every 10 degrees, and 72 bins every 5
   %\caption{\label{amalia} The wind direction distribution of the Princess Amalia Wind Farm, separated into 72 bins, every 5 degrees.}
 %\end{figure}
 
-Just as wind direction varies, the wind speed at any direction also changes. We represented the speed distribution at any direction as a Weibull distribution, which is commonly used to represent wind speed distributions \citep{justus1978methods,rehman1994weibull,dorvlo2002estimating}: 
+Just as wind direction varies, the wind speed at any direction also changes. We represented the speed at any direction as a Weibull distribution, which is commonly used to represent wind speed distributions \citep{justus1978methods,rehman1994weibull,dorvlo2002estimating}: 
 \begin{equation}
 W(x) = \Big(\frac{k}{V_{\text{mean}}}\Big)\Big(\frac{x}{V_{\text{mean}}}\Big)^{k-1}\text{exp}\Big[\Big(-\frac{x}{V_{\text{mean}}}\Big)^k\Big]
 \end{equation}
 The shape factor, $k$, was set as 1.76. The average speed, $V_{\text{mean}}$, for each Weibull distribution is defined differently for each wind rose.
-Because of a lack of reliable wind speed data for the Alturas wind rose, it is assumed to have an average wind speed of eight meters per second, which is uniform across all wind directions. For the Princess Amalia Wind Farm, $V_{\text{mean}}$ for each wind direction is defined as the average wind speed from each wind direction. These directionally averaged wind speeds are shown in Fig. \ref{amalia_speeds}. Figure \ref{weibull} shows the wind speed weibull distributions for two different $V_{\text{mean}}$ values. 
+Because of a lack of reliable wind speed data for the Alturas wind rose, it is assumed to have an average wind speed of eight meters per second, which is uniform across all wind directions. For the Princess Amalia Wind Farm, $V_{\text{mean}}$ 
+is defined as the directionally averaged wind speed for each wind direction (thus each direction has a different $V_{\text{mean}}$).
+%for each wind direction is defined as the average wind speed from each wind direction. 
+These directionally averaged wind speeds are shown in Fig. \ref{amalia_speeds}. Figure \ref{weibull} shows the wind speed weibull distributions for two different $V_{\text{mean}}$ values. 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.49\textwidth]{Figures/amalia_speeds.pdf}
@@ -55,8 +65,8 @@ Because of a lack of reliable wind speed data for the Alturas wind rose, it is a
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.49\textwidth]{Figures/weibull_6_53.pdf}\label{653}
-  \includegraphics[width=0.49\textwidth]{Figures/weibull_10_35.pdf}\label{1035}
+  \includegraphics[width=0.4\textwidth]{Figures/weibull_6_53.pdf}\label{653}
+  \includegraphics[width=0.4\textwidth]{Figures/weibull_10_35.pdf}\label{1035}
  % \subfloat[]{\includegraphics[width=0.5\textwidth]{Figures/weibull_6_53.pdf}\label{653}}
   %\subfloat[]{\includegraphics[width=0.5\textwidth]{Figures/weibull_10_35.pdf}\label{1035}}
   \caption{\label{weibull} The Weibull wind speed distributions at two wind directions. In (a) there is an average wind speed of 6.53 meters per second, the speed from the north in the Princess Amalia wind rose, and (b) shows an average wind speed of 10.35 meters per second, the speed from the southwest in the Princess Amalia wind rose. The shape factor k in each Weibull distribution is chosen as 1.76.}
