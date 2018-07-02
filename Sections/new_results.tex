@@ -37,7 +37,7 @@ For the smallest wind farm, $\beta=0.5$, the turbine design optimized in isolati
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.7\textwidth]{Figures/turbineSizesCircular_sequential.pdf}
+  \includegraphics[trim={0.5cm 0.3cm 0.3cm 2.75cm},clip,width=0.7\textwidth]{Figures/turbineSizesCircular_sequential.pdf}
   \caption{\label{circular_turbines_seq} The optimal turbine heights and rotor diameters for the isolated turbine design optimization for the circular farm wind conditions. These designs were then used in the sequential turbine-design-then-layout optimizations. The columns, from left to right, show the turbines optimized for $\alpha=0.075,0.175$, and $0.275$. The rows, from top to bottom, show the baseline turbine design, the turbine optimized for the small wind farm ($\beta=0.5$), and the turbine designs for the larger wind farms ($\beta=1.0,1.5$)}
 \end{figure}
 
@@ -56,7 +56,7 @@ Figure \ref{circular_turbines_1} shows the optimal rotor diameters and hub heigh
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[trim={0.5cm 0.3cm 0.3cm 1.75cm},clip,width=0.7\textwidth]{Figures/turbineSizesCircular_1.pdf}
+  \includegraphics[trim={0.5cm 0.3cm 0.3cm 2.75cm},clip,width=0.7\textwidth]{Figures/turbineSizesCircular_1.pdf}
   \caption{\label{circular_turbines_1} The optimal turbine heights and rotor diameters for the optimization runs with coupled layout and turbine design with homogeneous turbine design throughout the circular wind farm. Each column shows a different shear exponent, with $\alpha=0.075,0.175,0.275$ from left to right. Each row shows a different farm spacing multiplier, with $\beta=0.5,1.0,1.5$ from top to bottom.}
 \end{figure}
 
@@ -66,7 +66,7 @@ In Fig. \ref{circular_power}, the black points show the optimal rated powers for
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.7\textwidth]{Figures/circlePowers.pdf}
+  \includegraphics[trim={0.5cm 0.3cm 0.3cm 0.75cm},clip,width=0.7\textwidth]{Figures/circlePowers.pdf}
   \caption{\label{circular_power} The optimal rated powers for the circular wind farm for the optimization runs with coupled layout and turbine design for both uniform wind farm turbine design and with two different turbine design groups. The three subfigures show a different shear exponent, with $\alpha=0.075,0.175,0.275$ from left to right. within each subfigure, the x axis shows different farm spacing multipliers, with $\beta=0.5,1.0,1.5$ from left to right.}
 \end{figure}
 
@@ -78,13 +78,13 @@ Now we will discuss the most interesting case, the coupled turbine design and la
 
 The two different rotor designs in the same wind farm help to improve COE by reducing the wake interaction between wind turbines. By combining tall and short turbines, with large and small rotor sizes, there are more dimensions that the optimizer can manipulate to avoid wakes and improve performance. For the tightly packed wind farms, the turbine layout is greatly limited by the turbine spacing constraints. Additionally, as the turbines are closer together, the wakes greatly reduce the wind speed as they have not had an opprtunity to mix with the freesteam air. Both of these factors mean there is a large benefit to avoiding the wakes of other turbines by any means possible. For the larger wind farms where the turbines are spaced farther apart, the wakes are not as detrimental and there is more area in which to avoid wakes in the horizontal plane without needing to change hub height or rotor diameter. In these cases, the heterogenous turbine designs are not as beneficial.
 
-Figure \ref{circular_turbines} shows the optimal rotor diameter and hub height of each turbine group for these cases of coupled turbine design and layout optimization with two different groups. For the spacing multiplier $\beta=0.5$, when the turbines are very close together, there is a large difference in both the rotor diameter and hub height of each turbine group. Group 1 is extremely small and short, smaller than even the baseline rotor diameter, while Group 2 is much larger. Even if turbines from each group were right next to each other, there would be minimal wake interaction between the turbines. For the small wind farms, the sacrifice in power that comes from one very small and short turbine is made up for in the decreased wake inteference between turbine groups. Essentially, having two different turbine groups doubles the effective spacing between turbines, because turbines in different groups do not affect each other. For a larger spacing multiplier of $\beta=1.0$, each turbine group is still remarkably different in size and height. The turbines are larger than they were for the smallest wind farm because the average wind speed is faster when the turbines are spread farther apart. Notice that, compared to the optimized turbines for $\beta=0.5$, the smaller turbines when $\beta=1.0$ are larger and overlap more with the taller, bigger turbines. In this case, the power increase from bigger rotor diameters outweighs the benefit gained from reducing wake interference. 
+Figure \ref{circular_turbines} shows the optimal rotor diameter and hub height of each turbine group for these cases of coupled turbine design and layout optimization with two different groups. For the spacing multiplier $\beta=0.5$, when the turbines are very close together, there is a large difference in both the rotor diameter and hub height of each turbine group. Group 1 is extremely small and short, smaller than even the baseline rotor diameter, while group 2 is much larger. Even if turbines from each group were right next to each other, there would be minimal wake interaction between the turbines. For the small wind farms, the sacrifice in power that comes from one very small and short turbine is made up for in the decreased wake inteference between turbine groups. Essentially, having two different turbine groups doubles the effective spacing between turbines, because turbines in different groups do not affect each other. For a larger spacing multiplier of $\beta=1.0$, each turbine group is still remarkably different in size and height. The turbines are larger than they were for the smallest wind farm because the average wind speed is faster when the turbines are spread farther apart. Notice that, compared to the optimized turbines for $\beta=0.5$, the smaller turbines when $\beta=1.0$ are larger and overlap more with the taller, bigger turbines. In this case, the power increase from bigger rotor diameters outweighs the benefit gained from reducing wake interference. 
 
 The turbine sizes for the largest wind farm, $\beta=1.5$, demonstrate the multi-modality of the wind farm optimization problem. For this spacing multiplier, each turbine group is more similar than in the previous wind farm sizes. For the lowest shear exponent, $\alpha=0.075$, both turbine groups are almost identical. For $\alpha=0.175,0.275$, there is some difference in each rotor diameter and hub height, although the difference is not as pronounced as it was for the smaller wind farms. However, Fig. \ref{circular_results} shows that for $\beta=1.5$ the optimal COE from coupled turbine design and layout optimization is the same with one and two height groups. So, a wind farm with the homogeneous turbine design shown in the bottom row of Fig. \ref{circular_turbines_1}, and a wind farm with two different turbine designs shown in the bottom row of Fig. \ref{circular_turbines} result in the same COE. The same optimal result is achieved with drastically different farms, each with different turbines and layouts.  
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[trim={0.5cm 0.3cm 0.3cm 1.75cm},clip,width=0.7\textwidth]{Figures/turbineSizesCircular_2.pdf}
+  \includegraphics[trim={0.5cm 0.3cm 0.3cm 2.75cm},clip,width=0.7\textwidth]{Figures/turbineSizesCircular_2.pdf}
   \caption{\label{circular_turbines} The optimal turbine heights and rotor diameters for the optimization runs with coupled layout and turbine design with two different turbine design groups for the circular wind farm. Each column shows a different shear exponent, with $\alpha=0.075,0.175,0.275$ from left to right. Each row shows a different farm spacing multiplier, with $\beta=0.5,1.0,1.5$ from top to bottom.}
 \end{figure}
 

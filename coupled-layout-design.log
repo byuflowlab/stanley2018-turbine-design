@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 JUL 2018 12:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 JUL 2018 15:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -802,42 +802,42 @@ Package pdftex.def Info: Figures/tower_param.pdf  used on input line 17.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/weibull_10_35.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Figures/rated_thrust.pdf, id=275, 578.16pt x 433.62pt>
+<Figures/rated_thrust.pdf, id=252, 578.16pt x 433.62pt>
 File: Figures/rated_thrust.pdf Graphic file (type pdf)
 <use Figures/rated_thrust.pdf>
 Package pdftex.def Info: Figures/rated_thrust.pdf  used on input line 9.
 (pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-<Figures/rated_torque.pdf, id=277, 578.16pt x 433.62pt>
+<Figures/rated_torque.pdf, id=254, 578.16pt x 433.62pt>
 File: Figures/rated_torque.pdf Graphic file (type pdf)
 <use Figures/rated_torque.pdf>
 Package pdftex.def Info: Figures/rated_torque.pdf  used on input line 10.
 (pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-<Figures/rated_wind_speed.pdf, id=279, 578.16pt x 433.62pt>
+<Figures/rated_wind_speed.pdf, id=256, 578.16pt x 433.62pt>
 File: Figures/rated_wind_speed.pdf Graphic file (type pdf)
 <use Figures/rated_wind_speed.pdf>
 Package pdftex.def Info: Figures/rated_wind_speed.pdf  used on input line 11.
 (pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-<Figures/x_mom_inertia.pdf, id=281, 578.16pt x 433.62pt>
+<Figures/x_mom_inertia.pdf, id=258, 578.16pt x 433.62pt>
 File: Figures/x_mom_inertia.pdf Graphic file (type pdf)
 <use Figures/x_mom_inertia.pdf>
 Package pdftex.def Info: Figures/x_mom_inertia.pdf  used on input line 12.
 (pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-<Figures/y_mom_inertia.pdf, id=283, 578.16pt x 433.62pt>
+<Figures/y_mom_inertia.pdf, id=260, 578.16pt x 433.62pt>
 File: Figures/y_mom_inertia.pdf Graphic file (type pdf)
 <use Figures/y_mom_inertia.pdf>
 Package pdftex.def Info: Figures/y_mom_inertia.pdf  used on input line 13.
 (pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-<Figures/z_mom_inertia.pdf, id=285, 578.16pt x 433.62pt>
+<Figures/z_mom_inertia.pdf, id=262, 578.16pt x 433.62pt>
 File: Figures/z_mom_inertia.pdf Graphic file (type pdf)
 <use Figures/z_mom_inertia.pdf>
 Package pdftex.def Info: Figures/z_mom_inertia.pdf  used on input line 14.
 (pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-<Figures/blade_mass.pdf, id=287, 578.16pt x 433.62pt>
+<Figures/blade_mass.pdf, id=264, 578.16pt x 433.62pt>
 File: Figures/blade_mass.pdf Graphic file (type pdf)
 <use Figures/blade_mass.pdf>
 Package pdftex.def Info: Figures/blade_mass.pdf  used on input line 15.
 (pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-<Figures/extreme_thrust.pdf, id=289, 578.16pt x 433.62pt>
+<Figures/extreme_thrust.pdf, id=266, 578.16pt x 433.62pt>
 File: Figures/extreme_thrust.pdf Graphic file (type pdf)
 <use Figures/extreme_thrust.pdf>
 Package pdftex.def Info: Figures/extreme_thrust.pdf  used on input line 16.
@@ -847,27 +847,27 @@ d_thrust.pdf> <./Figures/rated_torque.pdf> <./Figures/rated_wind_speed.pdf> <./
 Figures/x_mom_inertia.pdf> <./Figures/y_mom_inertia.pdf> <./Figures/z_mom_inert
 ia.pdf> <./Figures/blade_mass.pdf> <./Figures/extreme_thrust.pdf>])
 (./Sections/optimization.tex [8] [9]
-<Figures/baseline_layouts.pdf, id=575, 722.7pt x 361.35pt>
+<Figures/baseline_layouts.pdf, id=552, 722.7pt x 361.35pt>
 File: Figures/baseline_layouts.pdf Graphic file (type pdf)
 <use Figures/baseline_layouts.pdf>
 Package pdftex.def Info: Figures/baseline_layouts.pdf  used on input line 52.
 (pdftex.def)             Requested size: 352.52809pt x 176.26355pt.
-<Figures/alturas_rose.pdf, id=576, 578.16pt x 433.62pt>
+<Figures/alturas_rose.pdf, id=553, 578.16pt x 433.62pt>
 File: Figures/alturas_rose.pdf Graphic file (type pdf)
 <use Figures/alturas_rose.pdf>
 Package pdftex.def Info: Figures/alturas_rose.pdf  used on input line 58.
 (pdftex.def)             Requested size: 246.7735pt x 185.07674pt.
-<Figures/amalia_rose.pdf, id=577, 578.16pt x 433.62pt>
+<Figures/amalia_rose.pdf, id=554, 578.16pt x 433.62pt>
 File: Figures/amalia_rose.pdf Graphic file (type pdf)
 <use Figures/amalia_rose.pdf>
 Package pdftex.def Info: Figures/amalia_rose.pdf  used on input line 59.
 (pdftex.def)             Requested size: 246.7735pt x 185.07674pt.
-<Figures/alturas_speeds.pdf, id=578, 578.16pt x 433.62pt>
+<Figures/alturas_speeds.pdf, id=555, 578.16pt x 433.62pt>
 File: Figures/alturas_speeds.pdf Graphic file (type pdf)
 <use Figures/alturas_speeds.pdf>
 Package pdftex.def Info: Figures/alturas_speeds.pdf  used on input line 65.
 (pdftex.def)             Requested size: 246.7735pt x 185.07674pt.
-<Figures/amalia_speeds.pdf, id=579, 578.16pt x 433.62pt>
+<Figures/amalia_speeds.pdf, id=556, 578.16pt x 433.62pt>
 File: Figures/amalia_speeds.pdf Graphic file (type pdf)
 <use Figures/amalia_speeds.pdf>
 Package pdftex.def Info: Figures/amalia_speeds.pdf  used on input line 66.
@@ -881,19 +881,12 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/alturas_rose.pdf):
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/amalia_rose.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Figures/shears.pdf, id=671, 867.24pt x 361.35pt>
+<Figures/shears.pdf, id=648, 867.24pt x 361.35pt>
 File: Figures/shears.pdf Graphic file (type pdf)
 <use Figures/shears.pdf>
 Package pdftex.def Info: Figures/shears.pdf  used on input line 76.
 (pdftex.def)             Requested size: 352.52809pt x 146.88629pt.
-
-
-LaTeX Warning: Reference `wp075' on page 11 undefined on input line 80.
-
-
-LaTeX Warning: Reference `wp275' on page 11 undefined on input line 80.
-
-<Figures/spacing_multipliers.pdf, id=672, 650.43pt x 578.16pt>
+<Figures/spacing_multipliers.pdf, id=649, 650.43pt x 578.16pt>
 File: Figures/spacing_multipliers.pdf Graphic file (type pdf)
 <use Figures/spacing_multipliers.pdf>
 Package pdftex.def Info: Figures/spacing_multipliers.pdf  used on input line 85
@@ -905,63 +898,60 @@ lia_speeds.pdf
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/amalia_speeds.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Figures/circular_results1.pdf, id=755, 722.7pt x 433.62pt>
+<Figures/circular_results1.pdf, id=732, 722.7pt x 433.62pt>
 File: Figures/circular_results1.pdf Graphic file (type pdf)
 <use Figures/circular_results1.pdf>
 Package pdftex.def Info: Figures/circular_results1.pdf  used on input line 20.
 (pdftex.def)             Requested size: 352.52809pt x 211.51627pt.
- [12 <./Figures/shears.pdf>] [13 <./Figures/spacing_multipliers.pdf>]
-<Figures/turbineSizesCircular_sequential.pdf, id=834, 867.24pt x 668.4975pt>
+ [12 <./Figures/shears.pdf>]
+<Figures/turbineSizesCircular_sequential.pdf, id=785, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesCircular_sequential.pdf Graphic file (type pdf)
 <use Figures/turbineSizesCircular_sequential.pdf>
 Package pdftex.def Info: Figures/turbineSizesCircular_sequential.pdf  used on i
 nput line 40.
-(pdftex.def)             Requested size: 352.52809pt x 271.73964pt.
-
+(pdftex.def)             Requested size: 352.52809pt x 242.83696pt.
+ [13 <./Figures/spacing_multipliers.pdf>]
 [14 <./Figures/circular_results1.pdf>] [15 <./Figures/turbineSizesCircular_sequ
 ential.pdf>]
-<Figures/turbineSizesCircular_1.pdf, id=988, 867.24pt x 668.4975pt>
+<Figures/turbineSizesCircular_1.pdf, id=978, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesCircular_1.pdf Graphic file (type pdf)
 <use Figures/turbineSizesCircular_1.pdf>
 Package pdftex.def Info: Figures/turbineSizesCircular_1.pdf  used on input line
  59.
-(pdftex.def)             Requested size: 352.52809pt x 254.71452pt.
-<Figures/circlePowers.pdf, id=991, 722.7pt x 433.62pt>
+(pdftex.def)             Requested size: 352.52809pt x 242.83696pt.
+<Figures/circlePowers.pdf, id=981, 722.7pt x 433.62pt>
 File: Figures/circlePowers.pdf Graphic file (type pdf)
 <use Figures/circlePowers.pdf>
 Package pdftex.def Info: Figures/circlePowers.pdf  used on input line 69.
-(pdftex.def)             Requested size: 352.52809pt x 211.51627pt.
+(pdftex.def)             Requested size: 352.52809pt x 203.3565pt.
  [16 <./Figures/turbineSizesCircular_1.pdf>] [17 <./Figures/circlePowers.pdf>]
-<Figures/turbineSizesCircular_2.pdf, id=1129, 867.24pt x 668.4975pt>
+<Figures/turbineSizesCircular_2.pdf, id=1121, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesCircular_2.pdf Graphic file (type pdf)
 <use Figures/turbineSizesCircular_2.pdf>
 Package pdftex.def Info: Figures/turbineSizesCircular_2.pdf  used on input line
  87.
-(pdftex.def)             Requested size: 352.52809pt x 254.71452pt.
- [18] [19 <./Figures/turbineSizesCircular_2.pdf>]
-<Figures/amalia_results1.pdf, id=1202, 722.7pt x 433.62pt>
+(pdftex.def)             Requested size: 352.52809pt x 242.83696pt.
+ [18]
+<Figures/amalia_results1.pdf, id=1133, 722.7pt x 433.62pt>
 File: Figures/amalia_results1.pdf Graphic file (type pdf)
 <use Figures/amalia_results1.pdf>
 Package pdftex.def Info: Figures/amalia_results1.pdf  used on input line 111.
 (pdftex.def)             Requested size: 352.52809pt x 211.51627pt.
-) [20 <./Figures/amalia_results1.pdf>] (./Sections/conclusions.tex [21])
+ [19 <./Figures/turbineSizesCircular_2.pdf>])
+(./Sections/conclusions.tex [20 <./Figures/amalia_results1.pdf>]) [21]
 (./coupled-layout-design.bbl [22] [23]) [24]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 335.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 335.
  (./coupled-layout-design.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 335.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 335.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 335.
  ) 
 Here is how much of TeX's memory you used:
- 10370 strings out of 492649
- 151459 string characters out of 6129622
- 291092 words of memory out of 5000000
- 13903 multiletter control sequences out of 15000+600000
+ 10368 strings out of 492649
+ 151445 string characters out of 6129622
+ 291012 words of memory out of 5000000
+ 13901 multiletter control sequences out of 15000+600000
  44027 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,12n,40p,1902b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -979,10 +969,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf
 onts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on coupled-layout-design.pdf (24 pages, 1422500 bytes).
+Output written on coupled-layout-design.pdf (24 pages, 1417753 bytes).
 PDF statistics:
- 1397 PDF objects out of 1440 (max. 8388607)
- 627 compressed objects within 7 object streams
+ 1388 PDF objects out of 1440 (max. 8388607)
+ 633 compressed objects within 7 object streams
  107 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
