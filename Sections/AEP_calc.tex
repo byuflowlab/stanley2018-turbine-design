@@ -29,17 +29,17 @@ V_{\text{eff}} = V(1-L)
 
 \subsubsection{Wind Direction and Speed Distributions}
 
-We used two different wind distributions; first we used wind data from the city of Alturas, California, second we used data from the Princess Amalia Wind Farm, off the coast of the Netherlands. 
+We used two different empirical wind distributions; first we used wind data from the city of Alturas, California, second we used data from the Princess Amalia Wind Farm, off the coast of the Netherlands. 
 %Katie: It almost seems as if this wind farm is both in the Netherlands and in California. You could either say. "from the city of Alturas, California and from the Princess Amalia Wind Farm, a wind farm off the coast of the Netherlands." OR "from both the Princess Amalia Wind Farm, a wind farm off the coast of the Netherlands, and the city of Alturas, California."
-The data we have is separated into 36 bins every 10 degrees, and 72 bins every 5 degrees, respectively. Both wind roses are shown in Fig. \ref{wind_roses}.
+The data we have is separated into 36 bins every 10 degrees, and 72 bins every 5 degrees, respectively. Both wind roses are shown in Section \ref{sec:optimization}, Fig. \ref{wind_roses}.
 %, and the Princess Amalia wind rose is shown in Figure \ref{amalia}. 
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.49\textwidth]{Figures/alturas_rose.pdf}
-  \includegraphics[width=0.49\textwidth]{Figures/amalia_rose.pdf}
-  \caption{\label{wind_roses} On the left, the wind direction distribution in Alturas, California, separated into 36 bins, every 10 degrees. On the right, the wind direction distribution of the Princess Amalia Wind Farm, separated into 72 bins, every 5 degrees.}
-\end{figure}
+%\begin{figure}[htbp]
+ % \centering
+  %\includegraphics[width=0.49\textwidth]{Figures/alturas_rose.pdf}
+  %\includegraphics[width=0.49\textwidth]{Figures/amalia_rose.pdf}
+  %\caption{\label{wind_roses} On the left, the wind direction distribution in Alturas, California, separated into 36 bins, every 10 degrees. On the right, the wind direction distribution of the Princess Amalia Wind Farm, separated into 72 bins, every 5 degrees.}
+%\end{figure}
 
 %\begin{figure}[htbp]
   %\centering
@@ -47,20 +47,24 @@ The data we have is separated into 36 bins every 10 degrees, and 72 bins every 5
   %\caption{\label{amalia} The wind direction distribution of the Princess Amalia Wind Farm, separated into 72 bins, every 5 degrees.}
 %\end{figure}
 
-Just as wind direction varies, the wind speed at any direction also changes. We represented the speed at any direction as a Weibull distribution, which is commonly used to represent wind speed distributions \citep{justus1978methods,rehman1994weibull,dorvlo2002estimating}: 
+%Just as wind direction varies, the wind speed at any direction also changes. 
+We represented the speeds at any direction as a Weibull distribution, which is commonly used to represent wind speed distributions \citep{justus1978methods,rehman1994weibull,dorvlo2002estimating}: 
 \begin{equation}
 W(x) = \Big(\frac{k}{V_{\text{mean}}}\Big)\Big(\frac{x}{V_{\text{mean}}}\Big)^{k-1}\text{exp}\Big[\Big(-\frac{x}{V_{\text{mean}}}\Big)^k\Big]
 \end{equation}
-The shape factor, $k$, was set as 1.76. The average speed, $V_{\text{mean}}$, for each Weibull distribution is defined differently for each wind rose.
-Because of a lack of reliable wind speed data for the Alturas wind rose, it is assumed to have an average wind speed of eight meters per second, which is uniform across all wind directions. For the Princess Amalia Wind Farm, $V_{\text{mean}}$ 
-is defined as the directionally averaged wind speed for each wind direction (thus each direction has a different $V_{\text{mean}}$).
+The shape factor, $k$, was set as 1.76. 
+The mean speed for a given distribution, $V_{\text{mean}}$, can be different depending on the wind direction, meaning that each wind direction has an associated Weibull curve defining the wind speed distribution from that direction. The average speeds, $V_{\text{mean}}$, from every direction for each wind rose are shown in Section \ref{sec:optimization}, Fig. \ref{wind_speeds}.
+%The average speed, $V_{\text{mean}}$, for each Weibull distribution is the average wind speed defined for every direction of each wind rose, meaning that each wind direction has an associated Weibull distribution defining the wind speeds from that direction. The average wind speeds from every direction for each wind rose are shown in Section \ref{sec:optimization}, Fig. \ref{wind_speeds}.
+Figure \ref{weibull} shows the wind speed Weibull distributions for two different $V_{\text{mean}}$ values. 
+%Because of a lack of reliable wind speed data for the Alturas wind rose, it is assumed to have an average wind speed of eight meters per second, which is uniform across all wind directions. For the Princess Amalia Wind Farm, $V_{\text{mean}}$ is defined as the directionally averaged wind speed for each wind direction (thus each direction has a different $V_{\text{mean}}$).
 %for each wind direction is defined as the average wind speed from each wind direction. 
-These directionally averaged wind speeds are shown in Fig. \ref{amalia_speeds}. Figure \ref{weibull} shows the wind speed weibull distributions for two different $V_{\text{mean}}$ values. 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.49\textwidth]{Figures/amalia_speeds.pdf}
-  \caption{\label{amalia_speeds} The directionally averaged wind speeds of the Princess Amalia Wind Farm, separated into 72 bins, every 5 degrees.}
-\end{figure}
+%These directionally averaged wind speeds are shown in Fig. \ref{amalia_speeds}. 
+
+%\begin{figure}[htbp]
+ % \centering
+  %\includegraphics[width=0.49\textwidth]{Figures/amalia_speeds.pdf}
+  %\caption{\label{amalia_speeds} The directionally averaged wind speeds of the Princess Amalia Wind Farm, separated into 72 bins, every 5 degrees.}
+%\end{figure}
 %Katie: Maybe this is obvious to people reading your paper, but why is the shape factor set at 1.76?
 
 \begin{figure}[htbp]
@@ -69,11 +73,14 @@ These directionally averaged wind speeds are shown in Fig. \ref{amalia_speeds}. 
   \includegraphics[width=0.4\textwidth]{Figures/weibull_10_35.pdf}\label{1035}
  % \subfloat[]{\includegraphics[width=0.5\textwidth]{Figures/weibull_6_53.pdf}\label{653}}
   %\subfloat[]{\includegraphics[width=0.5\textwidth]{Figures/weibull_10_35.pdf}\label{1035}}
-  \caption{\label{weibull} The Weibull wind speed distributions at two wind directions. In (a) there is an average wind speed of 6.53 meters per second, the speed from the north in the Princess Amalia wind rose, and (b) shows an average wind speed of 10.35 meters per second, the speed from the southwest in the Princess Amalia wind rose. The shape factor k in each Weibull distribution is chosen as 1.76.}
+  \caption{\label{weibull} The Weibull wind speed distributions for two different average wind speeds. In (a) there is an average wind speed of 6.53 meters per second, and (b) shows an average wind speed of 10.35 meters per second. The shape factor k in each Weibull distribution is chosen as 1.76.}
 \end{figure}
 %Katie: Why didn't you use a Weibull distribution for the California wind? Also you have misspelled distribution in Figure 5.
+
+
+
 \subsubsection{Sampling}
-The data we have is binned into 36 directions for the Alturas wind data, and 72 directions for the Princess Amalia data. This is very fine sampling, 
+The direction data we have is binned into 36 directions for one wind rose, and 72 directions for the other. This is very fine sampling, 
 %Katie: Why spell out seventy two but leave 36? Is that part of your style guide? If not, choose one and remain consistent throughout the paper. 
 more refined than necessary to accurately compute the annual energy production (AEP) of a wind farm. 
 %Katie: Then why do fine sampling? Or are you saying that you didn't use all these bins? This part confused me a bit. 

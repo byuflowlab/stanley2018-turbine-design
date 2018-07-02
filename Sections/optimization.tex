@@ -42,8 +42,8 @@ Note that i is the index defining the wind turbine, and j is the index describin
         
 We optimized two different wind farms, each with several different wind shear exponents and turbine spacing multipliers as will be explained later in this section. 
 The first wind farm is a fictional 32-turbine wind farm with a circular boundary. %The baseline layout and boundary is shown in Fig. \ref{circular_layout}. 
-This wind farm was optimized with the Alturas wind data shown in Fig. \ref{wind_roses}.  
-The second wind farm is the Princess Amalia wind farm layout which has 60 wind turbines, and which was optimized with the Princess Amalia wind data shown in Figs. \ref{wind_roses} and \ref{amalia_speeds}. The farm boundary for this wind farm is the convex hull of the original Princess Amalia wind farm. The baseline turbine layout and boundaries are shown in Fig. \ref{layouts}. The turbines in both wind farms are Vestas 2 Megawatt wind turbines, which have a rotor diameter of 80 meters. Therefore, we used a baseline rotor diameter of 80 meters and a baseline power rating of 2 Megawatts. The baseline hub height used in this study was 100 meters. 
+This wind farm was optimized with wind data from the city of Alturas, California, shown in Fig. \ref{wind_roses}.  For lack of reliable data, the average wind speed from each direction of this wind rose was assumed to eight meters per second, shown in Fig \ref{wind_speeds}.
+The second wind farm is the Princess Amalia wind farm, a real farm off the coast of the Netherlands, which has 60 wind turbines. This wind farm was optimized with the wind direction and average directional speed data from the true Princess Amalia farm, shown in Figs. \ref{wind_roses} and \ref{wind_speeds}. The farm boundary for the Princess Amalia wind farm is the convex hull of the original Princess Amalia layout. The baseline turbine layout and boundaries are shown in Fig. \ref{layouts}. The turbines in both wind farms are Vestas 2 Megawatt wind turbines, which have a rotor diameter of 80 meters. Therefore, we used a baseline rotor diameter of 80 meters and a baseline power rating of 2 Megawatts. The baseline hub height used in this study was 100 meters. 
 
 \begin{figure}[htbp]
   \centering
@@ -64,7 +64,7 @@ The second wind farm is the Princess Amalia wind farm layout which has 60 wind t
   \centering
   \includegraphics[width=0.49\textwidth]{Figures/alturas_speeds.pdf}
   \includegraphics[width=0.49\textwidth]{Figures/amalia_speeds.pdf}
-  \caption{\label{amalia_speeds} The directionally averaged wind speeds of the Princess Amalia Wind Farm, separated into 72 bins, every 5 degrees.}
+  \caption{\label{wind_speeds} On the left, the assumed directionally averaged wind speeds for Alturas, California, separated into 36 bins, every 10 degrees. Each direction is assumed to have an average wind speed of 8 meters per second. On the right, the directionally averaged wind speeds of the Princess Amalia Wind Farm, separated into 72 bins, every 5 degrees.}
 \end{figure}
 
 
