@@ -1,5 +1,4 @@
 We set up our optimization with two different turbine groups. We assigned each turbine to one of two groups, where all turbines in a group had the same tower hub height, rotor diameter, turbine rating, tower diameter, tower shell thickness, and blade chord and twist distributions.
-% Manufacturing each tower with custom dimensions may be very expensive, and further study will be necessary to determine if it is worth the additional cost and complexity to design each turbine individually. 
 Rather than optimize each turbine, we chose two groups because our previous study in which we optimized wind farms with different turbine heights indicated that the most benefit comes from increasing from one height group to two. Any benefit from introducing more groups was marginal \citep{stanley2018}. We parameterized the tower by specifying the diameter and shell thickness at the bottom, midpoint, and top of the tower and then linearly interpolating diameter and shell thickness at points in between, as shown in Fig. \ref{tower_def}.
 
 \begin{figure}[htbp]
@@ -8,7 +7,7 @@ Rather than optimize each turbine, we chose two groups because our previous stud
   \caption{\label{tower_def} The parameterized turbine tower definition. The tower diameter and shell thickness are defined at the bottom, midpoint, and top of the tower, with the values linearly interpolated in between.}
 \end{figure}
         
-        It may be beneficial to do a binary optimization in which each turbine can change the turbine group to which it belongs, but this greatly increases the complexity of the optimization and makes it gradient-free. Gradient-free optimization is more computationally expensive, which severely limits the number of design variables we can include in the problem. To maintain the gradient-based optimization, we assigned each turbine to one of the groups before starting the optimization. Although the turbines can move throughout the wind farm, once assigned a turbine could not switch to the other group. In this study, we only examine an equal weighting of turbines in each group, but additional benefit may come from optimally choosing the number of turbines in each group.% However, we did explore the effect of including different ratios of the different turbine groups, including 1-1, 2-1, and 3-1.
+        It may be beneficial to do a binary optimization in which each turbine can change the turbine group to which it belongs, but this greatly increases the complexity of the optimization and makes it gradient-free. Gradient-free optimization is more computationally expensive, which severely limits the number of design variables we can include in the problem. To maintain the gradient-based optimization, we assigned each turbine to one of the groups before starting the optimization. Although the turbines can move throughout the wind farm, once assigned a turbine could not switch to the other group. In this study, we only examine an equal weighting of turbines in each group, but additional benefit may come from optimally choosing the number of turbines in each group.
         
         We ran several cases in which different design variables were included in the problem to allow comparison of their effects on COE. In all, the design variables we included were the position of each turbine ($x_i,y_i$), the tower height of each group ($H_1, H_2$), the rotor diameter of each group ($D_1, D_2$), the rated power of each group ($R_1, R_2$), the tower diameter of each group ($d_{1,j}, d_{2,j}$), and the tower shell thickness of each group ($t_{1,j}, t_{2,j}$). Index j refers location on the tower (j=1 is at the bottom, j=2 at the midpoint, j=3 at the top), meaning there are six total variables to define diameter (three for each height group), and six to define the tower shell thickness.
                 
@@ -26,9 +25,7 @@ Rather than optimize each turbine, we chose two groups because our previous stud
                 	&& x_i,~ y_i,~ H_{1,2},~ D_{1,2},~ R_{1,2},~ d_{(1,j)},~ d_{(2,j)},~ t_{(1,j)},~t_{(2,j)}\\
                 		&&& i = 1, \ldots, n; \; j = 1,~2,~3 \\
 				& \text{subject to}
-% 					& & x_{\text{initial, min}} \leq x_i \leq x_{\text{initial, max}} \\
 					& & \text{boundary constraints} \\
-%                         &&& y_{\text{initial, min}} \leq y_i \leq y_{\text{initial, max}} \\
 						&&& \sqrt{(x-x_i)^2+(y-y_i)^2} \geq 2D_{\text{rotor}} \\
 						&&& H_1-\frac{D_1}{2}, H_2-\frac{D_2}{2} \geq 10~ \text{m}\\
                 		&&& d_{(1,j),(2,j)} \leq 6.3~ \text{m}\\
@@ -44,28 +41,26 @@ Rather than optimize each turbine, we chose two groups because our previous stud
 %
 Note that i is the index defining the wind turbine, and j is the index describing the location on the tower.
         
-        The gradients for this optimization were all analytic. We calculated the partial derivatives of each small section of the model and included each part in a framework called OpenMDAO, which calculates the gradients of the entire system \citep{gray2010openmdao}. The analytic gradients are significant because they are more accurate, converge to better solutions, and converge on the solution much faster that finite difference gradients. More importantly, they allow us to solve much larger optimization problems. % These analytic gradients allow coupled optimization of turbine position, height, diameter and thickness, and yaw in each wind direction. Including yaw introduces thousands of design variables, and is nearly impossible to optimize with gradient-free methods and very time-consuming with finite difference gradients.  
+        The gradients for this optimization were all analytic. We calculated the partial derivatives of each small section of the model and included each part in a framework called OpenMDAO, which calculates the gradients of the entire system \citep{gray2010openmdao}. The analytic gradients are significant because they are more accurate, converge to better solutions, and converge on the solution much faster that finite difference gradients. More importantly, they allow us to solve much larger optimization problems. 
         
 We optimized two different wind farms, each with several different wind shear exponents and turbine spacing multipliers as will be explained later in this section. 
-The first wind farm is a fictional 32-turbine wind farm with a circular boundary, shown in Fig. \ref{layouts}. %The baseline layout and boundary is shown in Fig. \ref{circular_layout}. 
+The first wind farm is a fictional 32-turbine wind farm with a circular boundary, shown in Fig. \ref{layouts}.
 This wind farm was optimized with wind data from the city of Alturas, California, shown in Fig. \ref{wind_roses}. For lack of reliable data, the average wind speed, $V_{\text{mean}}$, from each direction of this wind rose was assumed to be eight meters per second, shown in Fig \ref{wind_speeds}.
 The second wind farm is the Princess Amalia wind farm, a real farm off the coast of the Netherlands which has 60 wind turbines, is shown in Fig. \ref{layouts}. This wind farm was optimized with the wind direction and average directional speed data from the true Princess Amalia farm, shown in Figs. \ref{wind_roses} and \ref{wind_speeds}. The farm boundary for the Princess Amalia wind farm is the convex hull of the original Princess Amalia layout. The baseline turbine layout and boundaries are shown in Fig. \ref{layouts}. The turbines in both wind farms are Vestas 2 Megawatt wind turbines, which have a rotor diameter of 80 meters. Therefore, we used a baseline rotor diameter of 80 meters and a baseline power rating of 2 Megawatts. The baseline hub height used in this study was 100 meters. 
 
 \begin{figure}[htbp]
   \centering
-  %\includegraphics[trim={1cm 0 0 0},clip,width=0.4\textwidth]{Figures/circular.png}
-  %\includegraphics[trim={0 0 1cm 0},width=0.392\textwidth]{Figures/amalia.png}
    \includegraphics[width=0.7\textwidth]{Figures/baseline_layouts.pdf}
   \caption{\label{layouts} The two different wind farm designs that were optimized. On the left is a contrived circular wind farm design with 32 turbines. On the right is the Princess Amalia wind farm, an offset grid design with 60 wind turbines. }
 \end{figure}
-
+%
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.49\textwidth]{Figures/alturas_rose.pdf}
   \includegraphics[width=0.49\textwidth]{Figures/amalia_rose.pdf}
   \caption{\label{wind_roses} On the left, the wind direction distribution in Alturas, California, separated into 36 bins, every 10 degrees. On the right, the wind direction distribution of the Princess Amalia Wind Farm, separated into 72 bins, every 5 degrees.}
 \end{figure}
-
+%
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.49\textwidth]{Figures/alturas_speeds.pdf}
@@ -80,39 +75,13 @@ We optimized each of the wind farms shown in Fig. \ref{layouts} with three diffe
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.7\textwidth]{Figures/shears.pdf}
-  %\includegraphics[width=0.49\textwidth]{Figures/windProfile_0_075.pdf}
-  %\includegraphics[width=0.49\textwidth]{Figures/windProfile_0_175.pdf}
-  %\includegraphics[width=0.49\textwidth]{Figures/windProfile_0_275.pdf}
   \caption{\label{shear_profile}The wind speed profiles for various wind shear exponents. With lower shear exponents the wind speed does not vary dramatically with height. For higher wind shear there is a significant wind speed increase with height.}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.7\textwidth]{Figures/spacing_multipliers.pdf}
-  %\includegraphics[width=\textwidth]{Figures/circle_spacings.png}
-  %\includegraphics[width=.88\textwidth]{Figures/amalia_spacings.png}
   \caption{\label{farm_spacings}The six wind farm boundaries and associated baseline layouts optimized in this study. The same two layouts were multiplied by a spacing multiplier, $\beta=0.5,1.0,1.5$, which changed the wind farm size and the averaging spacing between wind turbines.  On the top is the 32-turbine, circular wind farm, and on the bottom is the 60-turbine, Princess Amalia wind farm. The turbine spacings, in baseline rotor diameters, are also displayed for each spacing multiplier in this figure.}
 \end{figure}
 
 The results of gradient-based optimization, especially for problems with many local minima, are sensitive to the starting location. As in most optimization problems, there is no guarantee that the solution is the global solution. The best results can be achieved with a multiple-start approach, where several different starting points are used for each condition, and the best solution is used. In our study, we ran fifty to hundreds of starting locations for each optimization case. For every optimization, we started each turbine location from the Princess Amalia or circular wind farm baseline locations in Fig. \ref{farm_spacings}, each perturbed by a random amount. All of the other design variables were initialized randomly.
-
-% \begin{figure}[htbp]
-%   \centering
-%   \includegraphics[width=\textwidth]{Figures/amalia_spacings.png}
-%   \caption{\label{amalia_spacings} \textbf{CAPTION HERE}}
-% \end{figure}
-
-% \begin{figure}[htbp]
-%   \centering
-%   \includegraphics[width=\textwidth]{Figures/circle_spacings.png}
-%   \caption{\label{circle_spacings} \textbf{CAPTION HERE}}
-% \end{figure}
-
-
-% \begin{figure}[htbp]
-%   \centering
-%   \subfloat[]{\includegraphics[trim={0 0 0 0},clip,width=0.33\textwidth]{Figures/amalia0_5.pdf}\label{wp075}}
-%   \subfloat[]{\includegraphics[trim={0 0 0 0},clip,width=0.33\textwidth]{Figures/amalia1_0.pdf}\label{wp175}}
-%   \subfloat[]{\includegraphics[trim={0 0 0 0},clip,width=0.33\textwidth]{Figures/amalia1_5.pdf}\label{wp275}}
-%   \caption{\label{shear_profile}\textbf{CAPTION HERE}}
-% \end{figure}
