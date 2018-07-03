@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  3 JUL 2018 13:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 JUL 2018 15:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**coupled-layout-design.tex
-(./coupled-layout-design.tex
+**diff.tex
+(./diff.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./copernicus.cls
@@ -669,56 +669,64 @@ Package color Info: Redefining color textcol on input line 2464.
 Package color Info: Redefining color bgcol on input line 2465.
 Package color Info: Redefining color barcol on input line 2466.
 \@pagelistfile=\write3
-\openout3 = `coupled-layout-design.pagelist'.
+\openout3 = `diff.pagelist'.
 
 )
-LaTeX Info: Redefining \vec on input line 2.
+LaTeX Info: Redefining \vec on input line 5.
 
-(./coupled-layout-design.aux
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box36
+\UL@hyphenbox=\box37
+\UL@skip=\skip67
+\UL@hook=\toks36
+\UL@height=\dimen155
+\UL@pe=\count138
+\UL@pixel=\dimen156
+\ULC@box=\box38
+Package: ulem 2012/05/18
+\ULdepth=\dimen157
+) (./diff.aux)
+\openout1 = `diff.aux'.
 
-LaTeX Warning: Label `rotor_nacelle' multiply defined.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 38.
 
-)
-\openout1 = `coupled-layout-design.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 17.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 17.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 38.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count138
-\scratchdimen=\dimen155
-\scratchbox=\box36
-\nofMPsegments=\count139
-\nofMParguments=\count140
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count141
-\MPscratchDim=\dimen156
-\MPnumerator=\count142
-\makeMPintoPDFobject=\count143
-\everyMPtoPDFconversion=\toks37
+\scratchcounter=\count139
+\scratchdimen=\dimen158
+\scratchbox=\box39
+\nofMPsegments=\count140
+\nofMParguments=\count141
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count142
+\MPscratchDim=\dimen159
+\MPnumerator=\count143
+\makeMPintoPDFobject=\count144
+\everyMPtoPDFconversion=\toks38
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -739,8 +747,8 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring OFF on input line 17.
+\AtBeginShipoutBox=\box40
+Package hyperref Info: Link coloring OFF on input line 38.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -748,235 +756,379 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count144
+\c@section@level=\count145
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 51.
-LaTeX Font Info:    Try loading font information for U+msa on input line 51.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 72.
+LaTeX Font Info:    Try loading font information for U+msa on input line 72.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+LaTeX Font Info:    Try loading font information for U+msb on input line 72.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 51.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 57.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 72.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 78.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 57.
+(Font)              scaled to size 8.54997pt on input line 78.
+ [1
 
-(./Sections/Introduction.tex [1
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (181.03165pt too wide) in paragraph at lines 109--122
+\T1/ptm/m/n/10 and Es-pir-itu[], []2011[]; []Feng and Shen[], []2015[]; []Gao e
+t al.[], []2015[]) and gradient-based meth-ods []|   []
+ []
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]) (.
-/Sections/wake_model.tex)
-(./Sections/AEP_calc.tex [3]
-<Figures/weibull_6_53.pdf, id=109, 578.16pt x 433.62pt>
+
+Overfull \hbox (2.59222pt too wide) in paragraph at lines 109--122
+[][]|   []   []\T1/ptm/m/n/10 . The premise of lay-
+ []
+
+[2]
+
+LaTeX Warning: Reference `wake_models' on page 3 undefined on input line 177.
+
+[3] [4]
+
+LaTeX Warning: Reference `amalia_speeds' on page 5 undefined on input line 303.
+
+
+<Figures/weibull_6_53.pdf, id=140, 578.16pt x 433.62pt>
 File: Figures/weibull_6_53.pdf Graphic file (type pdf)
 <use Figures/weibull_6_53.pdf>
-Package pdftex.def Info: Figures/weibull_6_53.pdf  used on input line 69.
+Package pdftex.def Info: Figures/weibull_6_53.pdf  used on input line 332.
 (pdftex.def)             Requested size: 201.44243pt x 151.08115pt.
-<Figures/weibull_10_35.pdf, id=110, 578.16pt x 433.62pt>
+<Figures/weibull_10_35.pdf, id=141, 578.16pt x 433.62pt>
 File: Figures/weibull_10_35.pdf Graphic file (type pdf)
 <use Figures/weibull_10_35.pdf>
-Package pdftex.def Info: Figures/weibull_10_35.pdf  used on input line 70.
+Package pdftex.def Info: Figures/weibull_10_35.pdf  used on input line 334.
 (pdftex.def)             Requested size: 201.44243pt x 151.08115pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 73.
-) (./Sections/tower_model.tex [4])
-(./Sections/rotor-nacelle_models.tex [5 <./Figures/weibull_6_53.pdf> <./Figures
-/weibull_10_35.pdf
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 337.
+[5 <./Figures/weibull_6_53.pdf> <./Figures/weibull_10_35.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/weibull_10_35.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Figures/rated_thrust.pdf, id=233, 578.16pt x 433.62pt>
-File: Figures/rated_thrust.pdf Graphic file (type pdf)
-<use Figures/rated_thrust.pdf>
-Package pdftex.def Info: Figures/rated_thrust.pdf  used on input line 13.
-(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-<Figures/rated_torque.pdf, id=235, 578.16pt x 433.62pt>
-File: Figures/rated_torque.pdf Graphic file (type pdf)
-<use Figures/rated_torque.pdf>
-Package pdftex.def Info: Figures/rated_torque.pdf  used on input line 14.
-(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-<Figures/rated_wind_speed.pdf, id=237, 578.16pt x 433.62pt>
-File: Figures/rated_wind_speed.pdf Graphic file (type pdf)
-<use Figures/rated_wind_speed.pdf>
-Package pdftex.def Info: Figures/rated_wind_speed.pdf  used on input line 15.
-(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-<Figures/x_mom_inertia.pdf, id=239, 578.16pt x 433.62pt>
-File: Figures/x_mom_inertia.pdf Graphic file (type pdf)
-<use Figures/x_mom_inertia.pdf>
-Package pdftex.def Info: Figures/x_mom_inertia.pdf  used on input line 16.
-(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-<Figures/y_mom_inertia.pdf, id=241, 578.16pt x 433.62pt>
-File: Figures/y_mom_inertia.pdf Graphic file (type pdf)
-<use Figures/y_mom_inertia.pdf>
-Package pdftex.def Info: Figures/y_mom_inertia.pdf  used on input line 17.
-(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-<Figures/z_mom_inertia.pdf, id=243, 578.16pt x 433.62pt>
-File: Figures/z_mom_inertia.pdf Graphic file (type pdf)
-<use Figures/z_mom_inertia.pdf>
-Package pdftex.def Info: Figures/z_mom_inertia.pdf  used on input line 18.
-(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-<Figures/blade_mass.pdf, id=245, 578.16pt x 433.62pt>
-File: Figures/blade_mass.pdf Graphic file (type pdf)
-<use Figures/blade_mass.pdf>
-Package pdftex.def Info: Figures/blade_mass.pdf  used on input line 19.
-(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-<Figures/extreme_thrust.pdf, id=247, 578.16pt x 433.62pt>
-File: Figures/extreme_thrust.pdf Graphic file (type pdf)
-<use Figures/extreme_thrust.pdf>
-Package pdftex.def Info: Figures/extreme_thrust.pdf  used on input line 20.
-(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
-) [6 <./Figures/rated_thrust.pdf> <./Figures/rated_torque.pdf> <./Figures/rated
-_wind_speed.pdf> <./Figures/x_mom_inertia.pdf> <./Figures/y_mom_inertia.pdf> <.
-/Figures/z_mom_inertia.pdf> <./Figures/blade_mass.pdf> <./Figures/extreme_thrus
-t.pdf>] (./Sections/cost_model.tex) (./Sections/optimization.tex
-<Figures/tower_param.pdf, id=489, 578.16pt x 433.62pt>
+<Figures/tower_param.pdf, id=251, 578.16pt x 433.62pt>
 File: Figures/tower_param.pdf Graphic file (type pdf)
 <use Figures/tower_param.pdf>
-Package pdftex.def Info: Figures/tower_param.pdf  used on input line 7.
+Package pdftex.def Info: Figures/tower_param.pdf  used on input line 379.
 (pdftex.def)             Requested size: 251.80688pt x 188.85475pt.
- [7 <./Figures/tower_param.pdf>] [8]
-<Figures/baseline_layouts.pdf, id=532, 722.7pt x 361.35pt>
+ [6]
+<Figures/rated_thrust.pdf, id=264, 578.16pt x 433.62pt>
+File: Figures/rated_thrust.pdf Graphic file (type pdf)
+<use Figures/rated_thrust.pdf>
+Package pdftex.def Info: Figures/rated_thrust.pdf  used on input line 404.
+(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
+<Figures/rated_torque.pdf, id=266, 578.16pt x 433.62pt>
+File: Figures/rated_torque.pdf Graphic file (type pdf)
+<use Figures/rated_torque.pdf>
+Package pdftex.def Info: Figures/rated_torque.pdf  used on input line 405.
+(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
+<Figures/rated_wind_speed.pdf, id=268, 578.16pt x 433.62pt>
+File: Figures/rated_wind_speed.pdf Graphic file (type pdf)
+<use Figures/rated_wind_speed.pdf>
+Package pdftex.def Info: Figures/rated_wind_speed.pdf  used on input line 406.
+(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
+<Figures/x_mom_inertia.pdf, id=270, 578.16pt x 433.62pt>
+File: Figures/x_mom_inertia.pdf Graphic file (type pdf)
+<use Figures/x_mom_inertia.pdf>
+Package pdftex.def Info: Figures/x_mom_inertia.pdf  used on input line 407.
+(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
+<Figures/y_mom_inertia.pdf, id=272, 578.16pt x 433.62pt>
+File: Figures/y_mom_inertia.pdf Graphic file (type pdf)
+<use Figures/y_mom_inertia.pdf>
+Package pdftex.def Info: Figures/y_mom_inertia.pdf  used on input line 408.
+(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
+<Figures/z_mom_inertia.pdf, id=274, 578.16pt x 433.62pt>
+File: Figures/z_mom_inertia.pdf Graphic file (type pdf)
+<use Figures/z_mom_inertia.pdf>
+Package pdftex.def Info: Figures/z_mom_inertia.pdf  used on input line 409.
+(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
+<Figures/blade_mass.pdf, id=276, 578.16pt x 433.62pt>
+File: Figures/blade_mass.pdf Graphic file (type pdf)
+<use Figures/blade_mass.pdf>
+Package pdftex.def Info: Figures/blade_mass.pdf  used on input line 410.
+(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
+<Figures/extreme_thrust.pdf, id=278, 578.16pt x 433.62pt>
+File: Figures/extreme_thrust.pdf Graphic file (type pdf)
+<use Figures/extreme_thrust.pdf>
+Package pdftex.def Info: Figures/extreme_thrust.pdf  used on input line 411.
+(pdftex.def)             Requested size: 166.19345pt x 138.25175pt.
+ [7 <./Figures/tower_param.pdf>] [8 <./Figures/rated_thrust.pdf> <./Figures/rat
+ed_torque.pdf> <./Figures/rated_wind_speed.pdf> <./Figures/x_mom_inertia.pdf> <
+./Figures/y_mom_inertia.pdf> <./Figures/z_mom_inertia.pdf> <./Figures/blade_mas
+s.pdf> <./Figures/extreme_thrust.pdf>] [9] [10]
+
+LaTeX Warning: Reference `circular_layout' on page 11 undefined on input line 5
+21.
+
+
+LaTeX Warning: Reference `alturas' on page 11 undefined on input line 522.
+
+
+LaTeX Warning: Reference `amalia' on page 11 undefined on input line 523.
+
+
+LaTeX Warning: Reference `amalia_speeds' on page 11 undefined on input line 523
+.
+
+
+LaTeX Warning: Reference `amalia_layout' on page 11 undefined on input line 523
+.
+
+[11]
+<Figures/baseline_layouts.pdf, id=576, 722.7pt x 361.35pt>
 File: Figures/baseline_layouts.pdf Graphic file (type pdf)
 <use Figures/baseline_layouts.pdf>
-Package pdftex.def Info: Figures/baseline_layouts.pdf  used on input line 58.
+Package pdftex.def Info: Figures/baseline_layouts.pdf  used on input line 531.
 (pdftex.def)             Requested size: 352.52809pt x 176.26355pt.
-<Figures/alturas_rose.pdf, id=533, 578.16pt x 433.62pt>
+<Figures/alturas_rose.pdf, id=577, 578.16pt x 433.62pt>
 File: Figures/alturas_rose.pdf Graphic file (type pdf)
 <use Figures/alturas_rose.pdf>
-Package pdftex.def Info: Figures/alturas_rose.pdf  used on input line 64.
+Package pdftex.def Info: Figures/alturas_rose.pdf  used on input line 537.
 (pdftex.def)             Requested size: 246.7735pt x 185.07674pt.
-<Figures/amalia_rose.pdf, id=534, 578.16pt x 433.62pt>
+<Figures/amalia_rose.pdf, id=578, 578.16pt x 433.62pt>
 File: Figures/amalia_rose.pdf Graphic file (type pdf)
 <use Figures/amalia_rose.pdf>
-Package pdftex.def Info: Figures/amalia_rose.pdf  used on input line 65.
+Package pdftex.def Info: Figures/amalia_rose.pdf  used on input line 538.
 (pdftex.def)             Requested size: 246.7735pt x 185.07674pt.
-<Figures/alturas_speeds.pdf, id=535, 578.16pt x 433.62pt>
+<Figures/alturas_speeds.pdf, id=579, 578.16pt x 433.62pt>
 File: Figures/alturas_speeds.pdf Graphic file (type pdf)
 <use Figures/alturas_speeds.pdf>
-Package pdftex.def Info: Figures/alturas_speeds.pdf  used on input line 71.
+Package pdftex.def Info: Figures/alturas_speeds.pdf  used on input line 544.
 (pdftex.def)             Requested size: 246.7735pt x 185.07674pt.
-<Figures/amalia_speeds.pdf, id=536, 578.16pt x 433.62pt>
+<Figures/amalia_speeds.pdf, id=580, 578.16pt x 433.62pt>
 File: Figures/amalia_speeds.pdf Graphic file (type pdf)
 <use Figures/amalia_speeds.pdf>
-Package pdftex.def Info: Figures/amalia_speeds.pdf  used on input line 72.
+Package pdftex.def Info: Figures/amalia_speeds.pdf  used on input line 545.
 (pdftex.def)             Requested size: 246.7735pt x 185.07674pt.
- [9 <./Figures/baseline_layouts.pdf>] [10 <./Figures/alturas_rose.pdf> <./Figur
-es/amalia_rose.pdf
+
+
+LaTeX Warning: Reference `amalia_spacings' on page 12 undefined on input line 5
+50.
+
+
+LaTeX Warning: Reference `circle_spacings' on page 12 undefined on input line 5
+50.
+
+[12 <./Figures/baseline_layouts.pdf> <./Figures/alturas_rose.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/alturas_rose.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./Figures/amalia_rose.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/amalia_rose.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
-> <./Figures/alturas_speeds.pdf
+>]
+<Figures/shears.pdf, id=673, 867.24pt x 361.35pt>
+File: Figures/shears.pdf Graphic file (type pdf)
+<use Figures/shears.pdf>
+Package pdftex.def Info: Figures/shears.pdf  used on input line 559.
+(pdftex.def)             Requested size: 352.52809pt x 146.88629pt.
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/alturas_speeds.pdf
-): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Figures/amalia_speeds.pdf
+
+LaTeX Warning: Reference `wp075' on page 13 undefined on input line 563.
+
+
+LaTeX Warning: Reference `wp275' on page 13 undefined on input line 563.
+
+<Figures/spacing_multipliers.pdf, id=674, 650.43pt x 578.16pt>
+File: Figures/spacing_multipliers.pdf Graphic file (type pdf)
+<use Figures/spacing_multipliers.pdf>
+Package pdftex.def Info: Figures/spacing_multipliers.pdf  used on input line 57
+0.
+(pdftex.def)             Requested size: 352.52809pt x 313.36626pt.
+
+LaTeX Warning: Reference `amalia_spacings' on page 13 undefined on input line 5
+76.
+
+
+LaTeX Warning: Reference `circle_spacings' on page 13 undefined on input line 5
+76.
+
+[13 <./Figures/alturas_speeds.pdf> <./Figures/amalia_speeds.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/amalia_speeds.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Figures/shears.pdf, id=712, 867.24pt x 361.35pt>
-File: Figures/shears.pdf Graphic file (type pdf)
-<use Figures/shears.pdf>
-Package pdftex.def Info: Figures/shears.pdf  used on input line 82.
-(pdftex.def)             Requested size: 352.52809pt x 146.88629pt.
-<Figures/spacing_multipliers.pdf, id=713, 650.43pt x 578.16pt>
-File: Figures/spacing_multipliers.pdf Graphic file (type pdf)
-<use Figures/spacing_multipliers.pdf>
-Package pdftex.def Info: Figures/spacing_multipliers.pdf  used on input line 91
-.
-(pdftex.def)             Requested size: 352.52809pt x 313.36626pt.
-) (./Sections/new_results.tex [11 <./Figures/shears.pdf>]
-<Figures/circular_results1.pdf, id=763, 722.7pt x 433.62pt>
+
+LaTeX Warning: Reference `amalia_turbines_seq' on page 14 undefined on input li
+ne 611.
+
+
+LaTeX Warning: Reference `amalia_turbines_1' on page 14 undefined on input line
+ 611.
+
+
+LaTeX Warning: Reference `amalia_turbines' on page 14 undefined on input line 6
+11.
+
+
+LaTeX Warning: Reference `amalia_power' on page 14 undefined on input line 611.
+
+
+[14 <./Figures/shears.pdf>]
+<Figures/circular_results1.pdf, id=819, 722.7pt x 433.62pt>
 File: Figures/circular_results1.pdf Graphic file (type pdf)
 <use Figures/circular_results1.pdf>
-Package pdftex.def Info: Figures/circular_results1.pdf  used on input line 20.
+Package pdftex.def Info: Figures/circular_results1.pdf  used on input line 628.
+
 (pdftex.def)             Requested size: 352.52809pt x 211.51627pt.
- [12 <./Figures/spacing_multipliers.pdf>] [13 <./Figures/circular_results1.pdf>
-]
-<Figures/turbineSizesCircular_sequential.pdf, id=897, 867.24pt x 668.4975pt>
+ [15 <./Figures/spacing_multipliers.pdf>]
+<Figures/turbineSizesCircular_sequential.pdf, id=858, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesCircular_sequential.pdf Graphic file (type pdf)
 <use Figures/turbineSizesCircular_sequential.pdf>
 Package pdftex.def Info: Figures/turbineSizesCircular_sequential.pdf  used on i
-nput line 41.
+nput line 650.
 (pdftex.def)             Requested size: 352.52809pt x 242.83696pt.
- [14 <./Figures/turbineSizesCircular_sequential.pdf>]
-<Figures/turbineSizesCircular_1.pdf, id=961, 867.24pt x 668.4975pt>
+ [16 <./Figures/circular_results1.pdf>] [17 <./Figures/turbineSizesCircular_seq
+uential.pdf>]
+
+LaTeX Warning: Reference `wp075' on page 18 undefined on input line 666.
+
+
+LaTeX Warning: Reference `wp175' on page 18 undefined on input line 666.
+
+
+LaTeX Warning: Reference `wp275' on page 18 undefined on input line 666.
+
+<Figures/turbineSizesCircular_1.pdf, id=1012, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesCircular_1.pdf Graphic file (type pdf)
 <use Figures/turbineSizesCircular_1.pdf>
 Package pdftex.def Info: Figures/turbineSizesCircular_1.pdf  used on input line
- 60.
+ 672.
 (pdftex.def)             Requested size: 352.52809pt x 242.83696pt.
-<Figures/circlePowers.pdf, id=964, 722.7pt x 433.62pt>
+<Figures/circlePowers.pdf, id=1015, 722.7pt x 433.62pt>
 File: Figures/circlePowers.pdf Graphic file (type pdf)
 <use Figures/circlePowers.pdf>
-Package pdftex.def Info: Figures/circlePowers.pdf  used on input line 70.
+Package pdftex.def Info: Figures/circlePowers.pdf  used on input line 685.
 (pdftex.def)             Requested size: 352.52809pt x 203.3565pt.
- [15] [16 <./Figures/turbineSizesCircular_1.pdf>] [17 <./Figures/circlePowers.p
-df>]
-<Figures/turbineSizesCircular_2.pdf, id=1111, 867.24pt x 668.4975pt>
+[18pdfTeX warning (ext4): destination with the same identifier (name{subsubsect
+ion.3.1.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.695 
+      ] [19 <./Figures/turbineSizesCircular_1.pdf>] [20 <./Figures/circlePowers
+.pdf>]
+<Figures/turbineSizesCircular_2.pdf, id=1159, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesCircular_2.pdf Graphic file (type pdf)
 <use Figures/turbineSizesCircular_2.pdf>
 Package pdftex.def Info: Figures/turbineSizesCircular_2.pdf  used on input line
- 88.
+ 706.
 (pdftex.def)             Requested size: 352.52809pt x 242.83696pt.
- [18 <./Figures/turbineSizesCircular_2.pdf>]
-<Figures/amalia_results1.pdf, id=1177, 722.7pt x 433.62pt>
+
+
+LaTeX Warning: Reference `circular_table' on page 21 undefined on input line 73
+1.
+
+[21 <./Figures/turbineSizesCircular_2.pdf>]
+Overfull \hbox (26.76018pt too wide) in paragraph at lines 816--820
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []
+ []
+
+
+LaTeX Warning: Reference `amalia_turbines_seq' on page 22 undefined on input li
+ne 822.
+
+
+LaTeX Warning: Reference `amalia_turbines_1' on page 22 undefined on input line
+ 822.
+
+
+LaTeX Warning: Reference `amalia_turbines' on page 22 undefined on input line 8
+22.
+
+
+LaTeX Warning: Reference `amalia_power' on page 22 undefined on input line 822.
+
+
+
+LaTeX Warning: Reference `amalia_table' on page 22 undefined on input line 822.
+
+
+[22]
+<Figures/amalia_results1.pdf, id=1232, 722.7pt x 433.62pt>
 File: Figures/amalia_results1.pdf Graphic file (type pdf)
 <use Figures/amalia_results1.pdf>
-Package pdftex.def Info: Figures/amalia_results1.pdf  used on input line 115.
+Package pdftex.def Info: Figures/amalia_results1.pdf  used on input line 843.
 (pdftex.def)             Requested size: 352.52809pt x 211.51627pt.
- [19 <./Figures/amalia_results1.pdf>]) (./Sections/conclusions.tex [20])
-[21] (./coupled-layout-design.bbl [22] [23]) [24]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 335.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 335.
- (./coupled-layout-design.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 335.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 335.
+ [23 <./Figures/amalia_results1.pdf>]
+Overfull \hbox (50.72005pt too wide) in paragraph at lines 865--869
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
 
-LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 335.
+Overfull \hbox (26.23996pt too wide) in paragraph at lines 881--885
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
+]
+ []
+
+[24] [25] (./diff.bbl [26] [27]
+
+Package lineno Warning: Linenumber reference failed, 
+(lineno)                rerun to get it right.
+
+) [28]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1289.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1289.
+ (./diff.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1289.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1289.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1289.
  ) 
 Here is how much of TeX's memory you used:
- 10368 strings out of 492649
- 151445 string characters out of 6129622
- 289023 words of memory out of 5000000
- 13901 multiletter control sequences out of 15000+600000
- 44027 words of font info for 71 fonts, out of 8000000 for 9000
+ 10474 strings out of 492649
+ 151994 string characters out of 6129622
+ 338283 words of memory out of 5000000
+ 14018 multiletter control sequences out of 15000+600000
+ 49738 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,40p,1957b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,40p,1847b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
 ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf
--dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times
-/utmri8a.pfb>
-Output written on coupled-layout-design.pdf (24 pages, 1417876 bytes).
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/t
+exmf-dist/fonts/type1/public/amsfonts/latxfont/lasy6.pfb></usr/local/texlive/20
+18/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texm
+f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/u
+rw/times/utmri8a.pfb>
+Output written on diff.pdf (28 pages, 1519680 bytes).
 PDF statistics:
- 1381 PDF objects out of 1440 (max. 8388607)
- 626 compressed objects within 7 object streams
- 107 named destinations out of 1000 (max. 500000)
+ 1435 PDF objects out of 1440 (max. 8388607)
+ 673 compressed objects within 7 object streams
+ 108 named destinations out of 1000 (max. 500000)
  193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,191 @@
+\begin{thebibliography}{34}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{\tt #1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{https://doi.org/\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{https://doi.org/\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Barthelmie et~al.(2007)Barthelmie, Frandsen, Nielsen, Pryor, Rethore,
+  and J{\o}rgensen}]{barthelmie2007modelling}
+Barthelmie, R.~J., Frandsen, S.~T., Nielsen, M., Pryor, S., Rethore, P.-E., and
+  J{\o}rgensen, H.~E.: Modelling and measurements of power losses and
+  turbulence intensity in wind turbine wakes at Middelgrunden offshore wind
+  farm, Wind Energy, 10, 517--528, 2007.
+
+\bibitem[{Barthelmie et~al.(2009)Barthelmie, Hansen, Frandsen, Rathmann,
+  Schepers, Schlez, Phillips, Rados, Zervos, Politis
+  et~al.}]{barthelmie2009modelling}
+Barthelmie, R.~J., Hansen, K., Frandsen, S.~T., Rathmann, O., Schepers, J.,
+  Schlez, W., Phillips, J., Rados, K., Zervos, A., Politis, E., et~al.:
+  Modelling and measuring flow and wind turbine wakes in large wind farms
+  offshore, Wind Energy, 12, 431--444, 2009.
+
+\bibitem[{Briggs(2013)}]{briggs2013navigating}
+Briggs, K.: Navigating the complexities of wake losses, Norik American
+  Windpower, 10, 2013.
+
+\bibitem[{Chen et~al.(2013)Chen, Li, Jin, and Song}]{chen2013wind}
+Chen, Y., Li, H., Jin, K., and Song, Q.: Wind farm layout optimization using
+  genetic algorithm with different hub height wind turbines, Energy Conversion
+  and Management, 70, 56--65, 2013.
+
+\bibitem[{Chen et~al.(2015)Chen, Li, He, Wang, and Jin}]{chen2015multi}
+Chen, Y., Li, H., He, B., Wang, P., and Jin, K.: Multi-objective genetic
+  algorithm based innovative wind farm layout optimization method, Energy
+  Conversion and Management, 105, 1318--1327, 2015.
+
+\bibitem[{Chowdhury et~al.(2010)Chowdhury, Messac, Zhang, Castillo, and
+  Lebron}]{chowdhury2010optimizing}
+Chowdhury, S., Messac, A., Zhang, J., Castillo, L., and Lebron, J.: Optimizing
+  the unrestricted placement of turbines of differing rotor diameters in a wind
+  farm for maximum power generation, in: ASME 2010 international design
+  engineering technical conferences and computers and information in
+  engineering conference, pp. 775--790, American Society of Mechanical
+  Engineers, 2010.
+
+\bibitem[{Chowdhury et~al.(2013)Chowdhury, Zhang, Messac, and
+  Castillo}]{chowdhury2013optimizing}
+Chowdhury, S., Zhang, J., Messac, A., and Castillo, L.: Optimizing the
+  arrangement and the selection of turbines for wind farms subject to varying
+  wind conditions, Renewable Energy, 52, 273--282, 2013.
+
+\bibitem[{Dorvlo(2002)}]{dorvlo2002estimating}
+Dorvlo, A.~S.: Estimating wind speed distribution, Energy Conversion and
+  Management, 43, 2311--2318, 2002.
+
+\bibitem[{Dykes and Scott(2014)}]{dykes2014plant_costsse}
+Dykes, K. and Scott, G.: Plant\_CostsSE Documentation version 1.0, NREL TP
+  forthcoming, 2014.
+
+\bibitem[{Emami and Noghreh(2010)}]{emami2010new}
+Emami, A. and Noghreh, P.: New approach on optimization in placement of wind
+  turbines within wind farm by genetic algorithms, Renewable Energy, 35,
+  1559--1564, 2010.
+
+\bibitem[{Feng and Shen(2015)}]{feng2015solving}
+Feng, J. and Shen, W.~Z.: Solving the wind farm layout optimization problem
+  using random search algorithm, Renewable Energy, 78, 182--192, 2015.
+
+\bibitem[{Fleming et~al.(2016{\natexlab{a}})Fleming, Churchfield, Scholbrock,
+  Clifton, Schreck, Johnson, Wright, Gebraad, Annoni, Naughton
+  et~al.}]{fleming2016detailed}
+Fleming, P., Churchfield, M., Scholbrock, A., Clifton, A., Schreck, S.,
+  Johnson, K., Wright, A., Gebraad, P., Annoni, J., Naughton, B., et~al.:
+  Detailed field test of yaw-based wake steering, in: Journal of Physics:
+  Conference Series, vol. 753, p. 052003, IOP Publishing, 2016{\natexlab{a}}.
+
+\bibitem[{Fleming et~al.(2016{\natexlab{b}})Fleming, Ning, Gebraad, and
+  Dykes}]{Fleming2016}
+Fleming, P., Ning, A., Gebraad, P., and Dykes, K.: Wind Plant System
+  Engineering through Optimization of Layout and Yaw Control, Wind Energy, 19,
+  329--344, \doi{10.1002/we.1836}, 2016{\natexlab{b}}.
+
+\bibitem[{Gao et~al.(2015)Gao, Yang, Lin, and Koo}]{gao2015wind}
+Gao, X., Yang, H., Lin, L., and Koo, P.: Wind turbine layout optimization using
+  multi-population genetic algorithm and a case study in Hong Kong offshore,
+  Journal of Wind Engineering and Industrial Aerodynamics, 139, 89--99, 2015.
+
+\bibitem[{Gebraad et~al.(2016)Gebraad, Teeuwisse, Wingerden, Fleming, Ruben,
+  Marden, and Pao}]{gebraad2016wind}
+Gebraad, P., Teeuwisse, F., Wingerden, J., Fleming, P.~A., Ruben, S., Marden,
+  J., and Pao, L.: Wind plant power optimization through yaw control using a
+  parametric model for wake effects—a CFD simulation study, Wind Energy, 19,
+  95--114, 2016.
+
+\bibitem[{Gebraad et~al.(2017)Gebraad, Thomas, Ning, Fleming, and
+  Dykes}]{gebraad2017maximization}
+Gebraad, P., Thomas, J.~J., Ning, A., Fleming, P., and Dykes, K.: Maximization
+  of the annual energy production of wind power plants by optimization of
+  layout and yaw-based wake control, Wind Energy, 20, 97--107, 2017.
+
+\bibitem[{Gray et~al.(2010)Gray, Moore, and Naylor}]{gray2010openmdao}
+Gray, J., Moore, K.~T., and Naylor, B.~A.: OpenMDAO: An Open Source Framework
+  for Multidisciplinary Analysis and Optimization, in: AIAA/ISSMO
+  Multidisciplinary Analysis Optimization Conference Proceedings, vol.~5, 2010.
+
+\bibitem[{Guirguis et~al.(2016)Guirguis, Romero, and Amon}]{guirguis2016toward}
+Guirguis, D., Romero, D.~A., and Amon, C.~H.: Toward efficient optimization of
+  wind farm layouts: Utilizing exact gradient information, Applied energy, 179,
+  110--123, 2016.
+
+\bibitem[{Ituarte-Villarreal and Espiritu(2011)}]{ituarte2011optimization}
+Ituarte-Villarreal, C.~M. and Espiritu, J.~F.: Optimization of wind turbine
+  placement using a viral based optimization algorithm, Procedia Computer
+  Science, 6, 469--474, 2011.
+
+\bibitem[{Jensen(1983)}]{jensen1983note}
+Jensen, N.~O.: A note on wind generator interaction, 1983.
+
+\bibitem[{Jim{\'e}nez et~al.(2010)Jim{\'e}nez, Crespo, and
+  Migoya}]{jimenez2010application}
+Jim{\'e}nez, {\'A}., Crespo, A., and Migoya, E.: Application of a LES technique
+  to characterize the wake deflection of a wind turbine in yaw, Wind energy,
+  13, 559--572, 2010.
+
+\bibitem[{Justus et~al.(1978)Justus, Hargraves, Mikhail, and
+  Graber}]{justus1978methods}
+Justus, C., Hargraves, W., Mikhail, A., and Graber, D.: Methods for estimating
+  wind speed frequency distributions, Journal of applied meteorology, 17,
+  350--353, 1978.
+
+\bibitem[{Kusiak and Song(2010)}]{kusiak2010design}
+Kusiak, A. and Song, Z.: Design of wind farm layout for maximum wind energy
+  capture, Renewable energy, 35, 685--694, 2010.
+
+\bibitem[{Marmidis et~al.(2008)Marmidis, Lazarou, and
+  Pyrgioti}]{marmidis2008optimal}
+Marmidis, G., Lazarou, S., and Pyrgioti, E.: Optimal placement of wind turbines
+  in a wind park using Monte Carlo simulation, Renewable energy, 33,
+  1455--1460, 2008.
+
+\bibitem[{Mon{\'e} et~al.(2013)Mon{\'e}, Smith, Maples, and
+  Hand}]{mone2013cost}
+Mon{\'e}, C., Smith, A., Maples, B., and Hand, M.: Cost of Wind Energy Review,
+  Tech. rep., NREL/TP-5000-63267. Golden, Colorado: National Renewable Energy
+  Laboratory, 2013.
+
+\bibitem[{Mone et~al.(2014)Mone, Maples, and M.}]{BOS}
+Mone, C., Maples, B., and M., H.: Land-Based Wind Plant Balance-of-System Cost
+  Drivers and Sensitivities, 2014.
+
+\bibitem[{Ning and Petch(2016)}]{Ning2016a}
+Ning, A. and Petch, D.: Integrated Design of Downwind Land-Based Wind Turbines
+  Using Analytic Gradients, Wind Energy, 19, 2137--2152, \doi{10.1002/we.1972},
+  2016.
+
+\bibitem[{Ning(2013)}]{ning2013rotorse}
+Ning, S.~A.: RotorSE, Tech. rep., National Renewable Energy Laboratory (NREL),
+  Golden, CO (United States), 2013.
+
+\bibitem[{Park and Law(2015)}]{park2015layout}
+Park, J. and Law, K.~H.: Layout optimization for maximizing wind farm power
+  production using sequential convex programming, Applied Energy, 151,
+  320--334, 2015.
+
+\bibitem[{P{\'e}rez et~al.(2013)P{\'e}rez, M{\'\i}nguez, and
+  Guanche}]{perez2013offshore}
+P{\'e}rez, B., M{\'\i}nguez, R., and Guanche, R.: Offshore wind farm layout
+  optimization using mathematical programming techniques, Renewable Energy, 53,
+  389--399, 2013.
+
+\bibitem[{Rehman et~al.(1994)Rehman, Halawani, and Husain}]{rehman1994weibull}
+Rehman, S., Halawani, T., and Husain, T.: Weibull parameters for wind speed
+  distribution in Saudi Arabia, Solar Energy, 53, 473--479, 1994.
+
+\bibitem[{Stanley et~al.()Stanley, Ning, and Dykes}]{stanley2018}
+Stanley, A.~P., Ning, A., and Dykes, K.: Optimization of Turbine Design in Wind
+  Farms with Multiple Hub Heights, Using Exact Analytic Gradients and
+  Structural Constraints, Wind Energy, forthcoming.
+
+\bibitem[{Thomas et~al.(2017)Thomas, Gebraad, and Ning}]{thomas2017improving}
+Thomas, J.~J., Gebraad, P.~M., and Ning, A.: Improving the FLORIS wind plant
+  model for compatibility with gradient-based optimization, Wind Engineering,
+  41, 313--329, 2017.
+
+\bibitem[{{U.S. Energy Information Administration}(2018)}]{levelized}
+{U.S. Energy Information Administration}: Levelized Cost and Levelized Avoided
+  Cost of New Generation Resources in the Annual Energy Outlook 2018, 2018.
+
+\end{thebibliography}

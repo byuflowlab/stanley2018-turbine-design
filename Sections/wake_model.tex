@@ -1,4 +1,6 @@
-We used the FLORIS wake model to predict the wind speeds throughout the wind farms in our study \citep{gebraad2016wind}. The FLORIS model is similar to the Jensen wake model used in many wind farm studies \citep{jensen1983note} in that it is a reduced order model well suited for optimization studies in which there will be many calls to the wake model. However, unlike the Jensen wake model which defines one wind speed across an entire wake, FLORIS defines three separate velocity zones, better capturing the physics in a wake. 
+We used the FLORIS wake model to predict the wind speeds throughout the wind farms in our study \citep{gebraad2016wind}. 
+%The FLORIS model is similar to the Jensen wake model used in many wind farm studies \citep{jensen1983note} in that it is a reduced order model well suited for optimization studies in which there will be many calls to the wake model. However, unlike the Jensen wake model which defines one wind speed across an entire wake, FLORIS defines three separate velocity zones, better capturing the physics in a wake. 
+%
 %These two wake models are shown in Fig. \ref{wake_models}.
 %I don't know how it will look on paper, but I can barely see the third wake zone in the FLORIS model. It looks almost white.
 %\begin{figure}[htbp]
@@ -12,17 +14,13 @@ The FLORIS model had some discontinuities in the original formulation, so in thi
 
 
 The total velocity deficit at any given point is defined as the square root of the sum of the squares of the loss contribution from each turbine wake:
-
 \begin{equation}
 L = \sqrt{\sum_{i=1}^\text{nTurbs}L_i^2}
 \end{equation}
-
 %\noindent Thus at any point in the wind farm, the wind speed is:
-
 %\begin{equation}
 %V = V_\infty(1-L)
 %\end{equation}
-
 %\noindent Note that $V_\infty$ is defined as the freestream wind speed at the hub height of the wind turbine in question. 
 \noindent Variations of the free stream wind speed with height are calculated with the wind profile power law: 
 \begin{equation}

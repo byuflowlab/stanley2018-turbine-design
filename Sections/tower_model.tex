@@ -1,6 +1,6 @@
 Because the tower height varied in this study, it was necessary to calculate the tower mass and perform structural analyses.
-We modeled the tower as a tapered steel cylinder. As shown in Fig. \ref{tower_def}, the tower diameter and shell thickness were parameterized at the bottom, midpoint, and top of the tower, and were linearly interpolated in between.
-The structural analysis was used to constrain the optimization, keeping the turbine towers from growing unrealistically tall, where failure from stress or buckling would be an issue. 
+%We modeled the tower as a tapered steel cylinder. As shown in Fig. \ref{tower_def}, the tower diameter and shell thickness were parameterized at the bottom, midpoint, and top of the tower, and were linearly interpolated in between.
+The structural analysis was used to constrain the tower from stress or buckling issues. 
 It was necessary to provide a model with gradients for all of our constraints, which included the von Mises stress, shell buckling, and global buckling at any point along the tower; the tower taper ratio; and the first natural frequency of the structure. The method by which these calculations were made is discussed in more detail in our previous study \citep{stanley2018}.
 
 
@@ -12,11 +12,11 @@ A finite element model called TowerSE was developed at NREL that makes various c
 It is a powerful tool but does not provide analytic gradients. We optimized several wind farms using TowerSE and finite difference gradients, and consequently identified the shell buckling and first natural frequency as the only active constraints. We were then able to pull out the needed calculations from TowerSE and derive the associated gradients. 
 \fi
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.5\textwidth]{Figures/tower_param.pdf}
-  \caption{\label{tower_def} The parameterized turbine tower definition. The tower diameter and shell thickness are defined at the bottom, midpoint, and top of the tower, with the values linearly interpolated in between.}
-\end{figure}
+%\begin{figure}[htbp]
+ % \centering
+ % \includegraphics[width=0.5\textwidth]{Figures/tower_param.pdf}
+ % \caption{\label{tower_def} The parameterized turbine tower definition. The tower diameter and shell thickness are defined at the bottom, midpoint, and top of the tower, with the values linearly interpolated in between.}
+%\end{figure}
 
 \iffalse
 The tower mass was a simple calculation from the volume of the tower, the gradients solved by hand.
