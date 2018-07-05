@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  5 JUL 2018 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  5 JUL 2018 15:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -846,30 +846,30 @@ File: Figures/tower_param.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/tower_param.pdf  used on input line 6.
 (pdftex.def)             Requested size: 251.80688pt x 145.4826pt.
  [7 <./Figures/tower_param.pdf>] [8]
-<Figures/baseline_layouts.pdf, id=540, 722.7pt x 361.35pt>
+<Figures/baseline_layouts.pdf, id=539, 722.7pt x 361.35pt>
 File: Figures/baseline_layouts.pdf Graphic file (type pdf)
 <use Figures/baseline_layouts.pdf>
-Package pdftex.def Info: Figures/baseline_layouts.pdf  used on input line 53.
-(pdftex.def)             Requested size: 352.52809pt x 162.38455pt.
-<Figures/alturas_rose.pdf, id=542, 578.16pt x 433.62pt>
+Package pdftex.def Info: Figures/baseline_layouts.pdf  used on input line 54.
+(pdftex.def)             Requested size: 352.52809pt x 163.77254pt.
+<Figures/alturas_rose.pdf, id=541, 578.16pt x 433.62pt>
 File: Figures/alturas_rose.pdf Graphic file (type pdf)
 <use Figures/alturas_rose.pdf>
-Package pdftex.def Info: Figures/alturas_rose.pdf  used on input line 59.
+Package pdftex.def Info: Figures/alturas_rose.pdf  used on input line 60.
 (pdftex.def)             Requested size: 246.7735pt x 185.07674pt.
-<Figures/amalia_rose.pdf, id=543, 578.16pt x 433.62pt>
+<Figures/amalia_rose.pdf, id=542, 578.16pt x 433.62pt>
 File: Figures/amalia_rose.pdf Graphic file (type pdf)
 <use Figures/amalia_rose.pdf>
-Package pdftex.def Info: Figures/amalia_rose.pdf  used on input line 60.
+Package pdftex.def Info: Figures/amalia_rose.pdf  used on input line 61.
 (pdftex.def)             Requested size: 246.7735pt x 185.07674pt.
-<Figures/alturas_speeds.pdf, id=544, 578.16pt x 433.62pt>
+<Figures/alturas_speeds.pdf, id=543, 578.16pt x 433.62pt>
 File: Figures/alturas_speeds.pdf Graphic file (type pdf)
 <use Figures/alturas_speeds.pdf>
-Package pdftex.def Info: Figures/alturas_speeds.pdf  used on input line 66.
+Package pdftex.def Info: Figures/alturas_speeds.pdf  used on input line 67.
 (pdftex.def)             Requested size: 246.7735pt x 185.07674pt.
-<Figures/amalia_speeds.pdf, id=545, 578.16pt x 433.62pt>
+<Figures/amalia_speeds.pdf, id=544, 578.16pt x 433.62pt>
 File: Figures/amalia_speeds.pdf Graphic file (type pdf)
 <use Figures/amalia_speeds.pdf>
-Package pdftex.def Info: Figures/amalia_speeds.pdf  used on input line 67.
+Package pdftex.def Info: Figures/amalia_speeds.pdf  used on input line 68.
 (pdftex.def)             Requested size: 246.7735pt x 185.07674pt.
  [9 <./Figures/baseline_layouts.pdf>] [10 <./Figures/alturas_rose.pdf> <./Figur
 es/amalia_rose.pdf
@@ -885,52 +885,53 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/alturas_speeds.pdf
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/amalia_speeds.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Figures/shears.pdf, id=721, 867.24pt x 361.35pt>
+<Figures/shears.pdf, id=720, 867.24pt x 361.35pt>
 File: Figures/shears.pdf Graphic file (type pdf)
 <use Figures/shears.pdf>
-Package pdftex.def Info: Figures/shears.pdf  used on input line 77.
+Package pdftex.def Info: Figures/shears.pdf  used on input line 78.
 (pdftex.def)             Requested size: 352.52809pt x 146.88629pt.
-<Figures/spacing_multipliers.pdf, id=722, 650.43pt x 578.16pt>
+<Figures/spacing_multipliers.pdf, id=721, 650.43pt x 578.16pt>
 File: Figures/spacing_multipliers.pdf Graphic file (type pdf)
 <use Figures/spacing_multipliers.pdf>
-Package pdftex.def Info: Figures/spacing_multipliers.pdf  used on input line 83
+Package pdftex.def Info: Figures/spacing_multipliers.pdf  used on input line 84
 .
 (pdftex.def)             Requested size: 352.52809pt x 313.36626pt.
 ) (./Sections/new_results.tex [11 <./Figures/shears.pdf>]
-<Figures/circular_results1.pdf, id=774, 722.7pt x 433.62pt>
+<Figures/circular_results1.pdf, id=771, 722.7pt x 433.62pt>
 File: Figures/circular_results1.pdf Graphic file (type pdf)
 <use Figures/circular_results1.pdf>
 Package pdftex.def Info: Figures/circular_results1.pdf  used on input line 15.
 (pdftex.def)             Requested size: 352.52809pt x 211.51627pt.
- [12 <./Figures/spacing_multipliers.pdf>]
-<Figures/turbineSizesCircular_sequential.pdf, id=815, 867.24pt x 668.4975pt>
+ [12 <./Figures/spacing_multipliers.pdf>] [13 <./Figures/circular_results1.pdf>
+]
+<Figures/turbineSizesCircular_sequential.pdf, id=905, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesCircular_sequential.pdf Graphic file (type pdf)
 <use Figures/turbineSizesCircular_sequential.pdf>
 Package pdftex.def Info: Figures/turbineSizesCircular_sequential.pdf  used on i
 nput line 32.
 (pdftex.def)             Requested size: 352.52809pt x 242.83696pt.
- [13 <./Figures/circular_results1.pdf>] [14 <./Figures/turbineSizesCircular_seq
-uential.pdf>]
-<Figures/turbineSizesCircular_1.pdf, id=971, 867.24pt x 668.4975pt>
+ [14 <./Figures/turbineSizesCircular_sequential.pdf>]
+<Figures/turbineSizesCircular_1.pdf, id=970, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesCircular_1.pdf Graphic file (type pdf)
 <use Figures/turbineSizesCircular_1.pdf>
 Package pdftex.def Info: Figures/turbineSizesCircular_1.pdf  used on input line
  50.
 (pdftex.def)             Requested size: 352.52809pt x 242.83696pt.
-<Figures/circlePowers.pdf, id=974, 722.7pt x 433.62pt>
+<Figures/circlePowers.pdf, id=973, 722.7pt x 433.62pt>
 File: Figures/circlePowers.pdf Graphic file (type pdf)
 <use Figures/circlePowers.pdf>
 Package pdftex.def Info: Figures/circlePowers.pdf  used on input line 60.
 (pdftex.def)             Requested size: 352.52809pt x 203.3565pt.
- [15] [16 <./Figures/turbineSizesCircular_1.pdf>]
-<Figures/turbineSizesCircular_2.pdf, id=1048, 867.24pt x 668.4975pt>
+ [15] [16 <./Figures/turbineSizesCircular_1.pdf>] [17 <./Figures/circlePowers.p
+df>]
+<Figures/turbineSizesCircular_2.pdf, id=1119, 867.24pt x 668.4975pt>
 File: Figures/turbineSizesCircular_2.pdf Graphic file (type pdf)
 <use Figures/turbineSizesCircular_2.pdf>
 Package pdftex.def Info: Figures/turbineSizesCircular_2.pdf  used on input line
  78.
 (pdftex.def)             Requested size: 352.52809pt x 242.83696pt.
- [17 <./Figures/circlePowers.pdf>] [18 <./Figures/turbineSizesCircular_2.pdf>]
-<Figures/amalia_results1.pdf, id=1186, 722.7pt x 433.62pt>
+ [18 <./Figures/turbineSizesCircular_2.pdf>]
+<Figures/amalia_results1.pdf, id=1185, 722.7pt x 433.62pt>
 File: Figures/amalia_results1.pdf Graphic file (type pdf)
 <use Figures/amalia_results1.pdf>
 Package pdftex.def Info: Figures/amalia_results1.pdf  used on input line 99.
@@ -950,11 +951,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
 Here is how much of TeX's memory you used:
  10368 strings out of 492649
  151445 string characters out of 6129622
- 288023 words of memory out of 5000000
+ 288054 words of memory out of 5000000
  13901 multiletter control sequences out of 15000+600000
  44027 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,40p,1957b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,40p,2030b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -969,10 +970,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf
 onts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on coupled-layout-design.pdf (24 pages, 1418935 bytes).
+Output written on coupled-layout-design.pdf (24 pages, 1419088 bytes).
 PDF statistics:
- 1390 PDF objects out of 1440 (max. 8388607)
- 631 compressed objects within 7 object streams
+ 1389 PDF objects out of 1440 (max. 8388607)
+ 630 compressed objects within 7 object streams
  107 named destinations out of 1000 (max. 500000)
  217 words of extra memory for PDF output out of 10000 (max. 10000000)
 
