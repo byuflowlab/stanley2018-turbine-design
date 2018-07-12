@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: Turbine-CostsSE
+Version: 0.1.0
+Summary: NREL WISDEM turbine cost models
+Home-page: UNKNOWN
+Author: Katherine Dykes
+Author-email: systems.engineering@nrel.gov
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Keywords: openmdao
+Platform: UNKNOWN
