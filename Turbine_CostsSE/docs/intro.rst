@@ -1,0 +1,6 @@
+Introduction
+------------
+
+The set of models contained in this Turbine_CostsSE software allow for the determination of costs for major rotor, hub, drivetrain and blade components of a wind turbine and overall turbine capital costs.  There are two turbine cost models included: 1) the NREL Costs and Scaling Model (NREL_CSM_TCC) and 2) the new Turbine Cost Systems Engineering Model (Turbine_CostsSE).  The first software combines sources of information from several areas: The NREL Cost and Scaling Model :cite:`Fingersh2006` and related subsequent cost model development efforts, the Wind Partnerships for Advanced Component Technology (WindPACT) work that occurred between roughly 2002 to 2005 :cite:`WindPACT`, and the University of Sunderland (the Sunderland Model) :cite:`Sunderland1993`.  The latter software is based on the same data set but uses new mass-cost models to take the component mass and estimate the associated cost.  It also allows for the inclusion of assembly, overhead and profit costs.  The component costs in both models can be scaled to a different year and month based on economic multipliers as done in :cite:`Fingersh2006`.
+
+Turbine_CostsSE is implemented as an `OpenMDAO <http://openmdao.org/>`_ assembly.  All supporting code is also in OpenMDAO based on the Python programming language.

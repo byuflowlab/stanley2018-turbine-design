@@ -1,0 +1,318 @@
+\documentclass[12pt]{report}
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{float}
+
+\title{Response to Reviewer 2}
+
+\begin{document}
+
+
+
+\author{Andrew PJ Stanley and Andrew Ning}
+
+\maketitle
+
+Thank you for your comments and questions! We will respond to each of your comments/questions below, individually. In addition to the comments below there were a few small wording change suggestions, all of which were made in the updated document.
+
+\bigskip
+Question/Comments are in black.
+
+\color{blue} The corresponding responses are immediately below in blue.
+
+\color{black}
+\section*{Page 1}
+Rotor diameter and rated power often closely correlated! ... and can in general not be considered as independent variables. Please motivate why both are included in your design space.
+
+\color{blue} There is certainly some correlation between rotor diameter and rated power, however they are not completely coupled. Take for example the NREL 5-MW reference turbine (rotor diameter 126.4 meters) and the IEA37 3.35-MW onshore reference turbine (rotor diameter 130 meters). Both have very different power ratings but almost identical rotor diameters. For this reason we considered them as independent variables.
+
+\bigskip \color{black}
+What is meant here - please explain. Is blade chord and twist distribution included in the design space?
+
+\color{blue} This was clarified in the text a paragraph before equation 6.
+
+\bigskip \color{black}
+Yes - maybe not surprising as sequential optimization can be considered as a subset of integrated optimization?
+
+\color{blue} Perhaps, that is semantics. However even if you do consider it that way, being a subset does not automatically mean it is superior.
+
+\bigskip \color{black}
+and increasing the loading
+
+\color{blue} This change was included.
+
+\bigskip \color{black}
+Exact analytical gradients ... but from a surrogate model. Analytical gradients  of a surrogate model may differ from true gradients!
+
+\color{blue} Exact analytic gradients refers to the whole model, including the wake model, power calculations, tower structural model, wind speed distribution, cost model, and the rotor/nacelle surrogate model.
+
+\bigskip \color{black}
+... but is more easily trapped in local extrema than some gradient-free approaches!
+
+\color{blue} This is mentioned in line 24: ``...and while gradient-based optimization methods converge to local minima...''
+
+\bigskip \color{black}
+can be compensated to some degree by a two-step procedure where coarse griding of a gradient-free approach is combined with a gradient-based optimizer 
+
+\color{blue} Excellent point! This optimization approach could be considered in future research.
+
+\bigskip \color{black}
+\section*{Page 2}
+\bigskip \color{black}
+random search?
+
+\color{blue} Yes. Random starting points.
+
+\bigskip \color{black}
+wind turbine de-rating and active wind turbine yaw control
+
+\color{blue} This change was made.
+
+\bigskip \color{black}
+A mix of gradient free and gradient based optimization approaches might also be advantageous as e.g. in "TOPFARM: Multi-fidelity optimization of wind farms",
+Pierre-Elouan Réthoré et al., WE, 2013.
+
+\color{blue} This change was included.
+
+\bigskip \color{black}
+well - in principle simple. However, wake interaction as a concept is not unambiguous. Does it cover only power losses ... or does it also include increased (fatigue) loading, which will increase cost of operation and maybe in the end compromise the life-time of the wind farm.
+
+\color{blue} Yes! The principle is simple but becomes challenging in practice.
+
+\bigskip \color{black}
+Thus, it makes sense to base the layout optimization on distributions averaged over the life-time of the wind farm ... and to consider sensitivity of the optimized results based on distribution uncertainty!
+
+\color{blue} Correct.
+
+\bigskip \color{black}
+I consider these two parameters highly correlated. Please explain why you have included both in the design space.
+
+\color{blue} Responded to above in a comment from page 1.
+
+\bigskip \color{black}
+... but possible increased cost associated with use of a multitude of tower heights is also a part of the COE equation!
+
+\color{blue} Certainly. This should be accounted for in the COE term.
+
+\bigskip \color{black}
+\section*{Page 3}
+\bigskip \color{black}
+... but the wind shear is not only site dependent but can, for a particular site, depend significantly on atmospheric stability, and thereby vary over time (e.g. follow a diurnal cycle)
+
+\color{blue} Clarified that the assumed constant wind shear.
+
+\bigskip \color{black}
+... but again to be meaningful potential additional costs related to two tower heights must be included in the `equation'
+
+\color{blue} These additional costs were included in the model.
+
+\bigskip \color{black}
+Not demonstrated if only positive effects are included (power increase), whereas possible negative effects (increased financial costs) are not accounted for
+
+\color{blue} These additional costs were included in the model.
+
+\bigskip \color{black}
+This is a `must' to make the study meaningful
+
+\color{blue} Correct.
+
+\bigskip \color{black}
+These refer to a surrogate model ... and does not necessarily `collapse' with true gradients of the physical system. I tend to consider gradients of a surrogate less `robust' than the surrogate itself.
+
+\color{blue} Responded to above in a comment from page 1.
+
+\bigskip \color{black}
+Does this model describe the 3D flow field in the wind farm?
+
+\color{blue} Yes! This was clarified in the updated document.
+
+\bigskip \color{black}
+deficit, L,
+
+\color{blue} This change was made.
+
+\bigskip \color{black}
+Why not logarithmic law , which is physically funded for neutral atmospheric conditions? The power law is a purely empirical model
+
+\color{blue} The power law is commonly used to represent wind speed variations due to wind shear. Also, it is easy to visualize the effect that changing the wind shear exponent has on wind speeds at different heights.
+
+\bigskip \color{black}
+\section*{Page 4}
+\bigskip \color{black}
+Is this a top-hat type of profile? ... and what in case of partial wake situations?
+Further, talking about rotor effective wind speed it seems as if a linear shear over the rotor has been assumed here ... contradicting the shear defined in eq. 2
+
+\color{blue} The wake profile is described in the appropriate citation. The partial wake situations were clarified to mention the area weighted average. The shear equation is used to define the free stream velocity at hub height, which is assumed to be constant across the rotor.
+
+\bigskip \color{black}
+Could you please motivate this choice?
+
+\color{blue} We motivated this choice to be from a range of realistic shape factors that were fit to real wind distributions.
+
+\bigskip \color{black}
+Could you comment on the universality of this result - do you e.g. expect this result to be wind farm topology independent or not; ambient turbulence dependent (i.e. wake expansion) dependent or not, ... 
+
+\color{blue} Great question! The number of samples required for convergence is a function of the power with respect to wind direction for the wind farm. If this curve is smooth, the number of samples required to accurately compute expected power will be small. If it is very noisy, you will need many samples to accurately compute the expected power. 
+
+The power w.r.t. wind direction curve is determined by the wind farm layout, the wake model, and the wind distribution. The samples used in this study were determined from the baseline layout, which has many highs and lows in the power curve. We expect this to become more well behaved as an optimal layout is approached, therefore concluded that this number of samples was sufficient. 
+
+In short, no this result is not universal, but unique to our specific wind farms and wind roses.
+
+\bigskip \color{black}
+\section*{Page 5}
+\bigskip \color{black}
+It is not straight forward to see how this is ensured - please briefly explain
+
+\color{blue} This was reworded for clarity.
+
+\bigskip \color{black}
+Which type of surrogate model is used here ... and why? Please motivate
+
+\color{blue} Mentioned later in the paragraph, 5th order bivariate spline.
+
+\bigskip \color{black}
+\section*{Page 6}
+\bigskip \color{black}
+OK -this is the surrogate!
+
+\color{blue} Correct!
+
+\bigskip \color{black}
+I suppose you checked the accuracy of the surrogate - did you also check the accuracy of the surrogate gradients?
+
+\color{blue} The surrogate is a polynomial spline fit, thus the gradients are simple and can be calculated by hand.
+
+\bigskip \color{black}
+\section*{Page 7}
+\bigskip \color{black}
+Could also be economic performance of the wind farm taking into accounts cost of loading
+
+\color{blue}  Yes. But AEP is a standard objective used in many optimization studies.
+
+\bigskip \color{black}
+... but in general power is the only aspect - cost of loads are also important
+
+\color{blue} Yes! But many studies only consider AEP.
+
+\bigskip \color{black}
+In addition to financial costs, operational costs - linked to turbine loadings in the wind farm - is also of relevance. See e.g.  ``TOPFARM: Multi-fidelity optimization of wind farms",
+Pierre-Elouan Réthoré et al., WE, 2013
+
+\color{blue} Operational costs are included in the cost model.
+
+\bigskip \color{black}
+By computing all possible weightnings you should approach the binary optimization approach!
+
+\color{blue} Correct! This would be an interesting continuation of this research.
+
+\bigskip \color{black}
+\section*{Page 8}
+\bigskip \color{black}
+Again, couldn't rotor diameter and rated power be collapsed to one set of design variables?
+
+\color{blue} Responded to above in a comment from page 1.
+
+\bigskip \color{black}
+Please explain
+
+\color{blue} We clarified here that implicit design variables change in the optimization process (through the rotor diameter and rated power surrogate), but are not explicitly manipulated.
+
+\bigskip \color{black}
+\section*{Page 9}
+\bigskip \color{black}
+How is this statement justified ... given the fact the analytic gradients refer to a surrogate model?
+
+\color{blue} Responded to above in a comment from page 1.
+
+\bigskip \color{black}
+None of these is the IEC-code recommended. Why not?
+
+\color{blue} We want to span the realistic range of shear exponents in a wind farm, skewing slightly towards the lower end typical over open water or flat ground. We chose 3 shear exponents that were equally spaced (0.075, 0.175, 0.275). Obviously we could have shifted all of these slightly up to consider (0.1, 0.2, and 0.3), which would include the IEC recommended 0.2, but we wanted to make sure to include the lowest value of 0.075. 
+
+\bigskip \color{black}
+I take this as a simple scaling of the topology ... but the optimal configuration might be with a completely different layout structure ... could you comment on this? You probably mean scaling of the base line wind turbine locations??
+
+\color{blue} Yes the wording on this was confusing. It has been reworded for clarity.
+
+\bigskip \color{black}
+\section*{Page 11}
+\bigskip \color{black}
+Would have been interesting with a sanity check based on the circular wind farm with a uniform direction pdf - in this case I would expect a segment of the wind turbines to be located equidistantly on the circular boundary of the wind farm
+
+\color{blue} We assume here you mean to check if the layout optimization performed as expected? Of course the wake model and optimization was tested on simple cases. However, we elected to only include the most interesting wind farm layouts and wind roses in the paper.
+
+\bigskip \color{black}
+... or by combining a generic optimization algorithm with a gradient based
+
+\color{blue} This optimization approach could be considered in future research.
+
+\bigskip \color{black}
+\section*{Page 12}
+\bigskip \color{black}
+ ... to the extend cable costs are not included, which is usually important for layout optimization. Without cable cost included (and no area constraints) an optimization will lead to `clusters' of solitary wind turbines ... which is obviously not economical feasible in reality.
+ 
+ \color{blue} Excellent point. We added a paragraph at the end of Conclusions that addresses this and recommends this course of action in future research.
+ 
+ \bigskip \color{black}
+ \section*{Page 14}
+ \bigskip \color{black}
+ None of these matches the IEC recommended value(s)
+ 
+ \color{blue} This was responded to above in a comment from page 9.
+ 
+ \bigskip \color{black}
+  \section*{Page 15}
+  \bigskip \color{black}
+ I would expect the combined optimization to result in different turbine design depending on whether the turbine is positioned on the edge of the wind farm or deep inside the wind farm. Have you performed this `sanity check'? 
+ 
+ \color{blue} We're slightly unsure of what is meant in this comment. If the question is ``did you test the model to see if it behaves like you would expect?'', then yes, we did!
+ 
+ \bigskip \color{black}
+ Except for the spacing constrain, I would a priory expect that low wind speeds call for large rotor diameters (i.e. low wind rotors) - could you comment on this? ... is it maybe load dictated in case of waked wind conditions??
+
+ This is surprising. Considering a solitary turbine, the consequence is that large turbines only pays off at high wind sites. Are you sure that your wind turbine cost model is realistic?
+ 
+ \color{blue} We'll address these two comments together. Remember that our objective function is COE, so simultaneously seeking to minimize cost and maximize AEP. This does \textbf{NOT} mean that the optimal designs we present are necessarily optimal for another objective, say AEP or total profit. For some objectives it would certainly be more desirable to have a large rotor diameter at low wind speeds to capture as much energy as possible or make more money, however these were not our objectives. 
+ 
+ \bigskip \color{black}
+   \section*{Page 16}
+   \bigskip \color{black}
+   However, if grid costs was included in the model, this conclusion might very well be completely different!
+   
+    \color{blue} This was responded to above in a comment from page 12.
+   
+   \bigskip \color{black}
+   Applying different control settings of each individual wind turbine might be a cheaper way of achieving different rotor performances throughout the wind farm?  
+   
+   \color{blue} Optimizing turbine design does not replace optimal control of a wind farm, they would be used together. The end goal would be to intelligently design wind farms considering turbine design, layout, and control all working together.
+   
+   \bigskip \color{black}
+   Cf. the comment above. This result might very well be dictated by grid cost not being included.
+   
+    \color{blue} This was responded to above in a comment from page 12.
+   
+   \bigskip \color{black}
+    \section*{Page 20}
+    \bigskip \color{black}
+   This is maybe a little contra-intuitive. Please comment on this finding.
+   
+    \color{blue} The table is exactly the same data as Figures 12 and 14 presented differently. When the turbine is optimized in isolation, it is optimal to be large because it is always exposed to the high free stream wind speeds. In a farm, especially the small farm, the wind speeds that the turbine actually is exposed to are much lower from wake interference, so in these cases it is more optimal to be smaller. It happens that the baseline design is close to the optimal turbine for the closely spaced wind farm, which makes it better than the larger sequential optimization. 
+   
+   \bigskip \color{black}
+   The paper includes a wind turbine cost model, which is crucial for this type of studies ... and thus a significant step forward compared to the work of e.g. Chen et al.
+ However, regarding wind farm layout optimization another financial cost has a significant impact on the optimized layout. Please comment on how cable costs influence the conclusions of this paper. Is it e.g. possible that the large wind farm case would have been populated differently with turbines?
+   
+For a more complete picture, effects of individual wind turbine de-rating, with the purpose optimizing the wind farm production, must also be included. This approach offer potentially a multitude of `different' turbines (in an operation context) in a wind farm ... without imposing additional (financial) costs.
+   
+      \color{blue} A paragraph has been added to the conclusion recommending that future research includes cable costs, as they might affect the optimal turbine layout (especially in the big farms). 
+      
+      The second comment here, about active control, was responded to above in a comment from page 16.
+   
+   \bigskip \color{black}
+     \section*{Page 21}
+     \bigskip \color{black}
+   Please specify - what is exactly meant by `implicit design variables' in this context?
+   
+   \color{blue} This was clarified in the text a paragraph before equation 6.
+\end{document}
