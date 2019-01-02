@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: newest-paper.aux
+The style file: copernicus.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "rethore2014topfarm"
+Warning--I didn't find a database entry for "stanley2017gradient"
+Warning--I didn't find a database entry for "Stanley2018_conf"
+Warning--I didn't find a database entry for "garcia1998fitting"
+Warning--I didn't find a database entry for "lun2000study"
+Warning--I didn't find a database entry for "jonkman2009definition"
+Warning--I didn't find a database entry for "Alturas"
+Warning--I didn't find a database entry for "brand2012database"
+Warning--empty year in stanley2018
+You've used 26 entries,
+            2811 wiz_defined-function locations,
+            1154 strings with 13987 characters,
+and the built_in function-call counts, 26393 in all, are:
+= -- 3086
+> -- 907
+< -- 10
++ -- 439
+- -- 279
+* -- 1565
+:= -- 2549
+add.period$ -- 26
+call.type$ -- 26
+change.case$ -- 146
+chr.to.int$ -- 26
+cite$ -- 79
+duplicate$ -- 2722
+empty$ -- 1338
+format.name$ -- 361
+if$ -- 5225
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 274
+newline$ -- 87
+num.names$ -- 104
+pop$ -- 1157
+preamble$ -- 1
+purify$ -- 144
+quote$ -- 0
+skip$ -- 1632
+stack$ -- 0
+substring$ -- 1177
+swap$ -- 2354
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 234
+warning$ -- 1
+while$ -- 145
+width$ -- 0
+write$ -- 295
+(There were 9 warnings)
