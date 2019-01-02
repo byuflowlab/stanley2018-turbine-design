@@ -5,70 +5,70 @@
 
 ### Layout Only
 
-![Circle, layout only, shear 0.075](CircleLayoutL_0_075.pdf)
+![Circle, layout only, shear 0.075](layouts/CircleLayoutL_0_075.pdf)
 
-![Circle, layout only, shear 0.175](CircleLayoutL_0_175.pdf)
+![Circle, layout only, shear 0.175](layouts/CircleLayoutL_0_175.pdf)
 
-![Circle, layout only, shear 0.275](CircleLayoutL_0_275.pdf)
+![Circle, layout only, shear 0.275](layouts/CircleLayoutL_0_275.pdf)
 
 ### Sequential Optimization
 
-![Circle, sequential design then layout, shear 0.075](CircleLayoutS_0.075.pdf)
+![Circle, sequential design then layout, shear 0.075](layouts/CircleLayoutS_0.075.pdf)
 
-![Circle, sequential design then layout, shear 0.175](CircleLayoutS_0.175.pdf)
+![Circle, sequential design then layout, shear 0.175](layouts/CircleLayoutS_0.175.pdf)
 
-![Circle, sequential design then layout, shear 0.275](CircleLayoutS_0.275.pdf)
+![Circle, sequential design then layout, shear 0.275](layouts/CircleLayoutS_0.275.pdf)
 
 ### Couple Optimization
 
-![Circle, coupled design and layout, shear 0.075](CircleLayoutALL1_0_075.pdf)
+![Circle, coupled design and layout, shear 0.075](layouts/CircleLayoutALL1_0_075.pdf)
 
-![Circle, coupled design and layout, shear 0.175](CircleLayoutALL1_0_175.pdf)
+![Circle, coupled design and layout, shear 0.175](layouts/CircleLayoutALL1_0_175.pdf)
 
-![Circle, coupled design and layout, shear 0.275](CircleLayoutALL1_0_275.pdf)
+![Circle, coupled design and layout, shear 0.275](layouts/CircleLayoutALL1_0_275.pdf)
 
 ### Couple Optimization with 2 Groups
 
-![Circle, coupled design and layout with 2 different turbine designs, shear 0.075](CircleLayoutALL2_0_075.pdf)
+![Circle, coupled design and layout with 2 different turbine designs, shear 0.075](layouts/CircleLayoutALL2_0_075.pdf)
 
-![Circle, coupled design and layout with 2 different turbine designs, shear 0.175](CircleLayoutALL2_0_175.pdf)
+![Circle, coupled design and layout with 2 different turbine designs, shear 0.175](layouts/CircleLayoutALL2_0_175.pdf)
 
-![Circle, coupled design and layout with 2 different turbine designs, shear 0.275](CircleLayoutALL2_0_275.pdf)
+![Circle, coupled design and layout with 2 different turbine designs, shear 0.275](layouts/CircleLayoutALL2_0_275.pdf)
 
 
 # Princess Amalia Boundary
 
 ### Layout Only
 
-![Amalia, layout only, shear 0.075](AmaliaLayoutL_0.075.pdf)
+![Amalia, layout only, shear 0.075](layouts/AmaliaLayoutL_0.075.pdf)
 
-![Amalia, layout only, shear 0.175](AmaliaLayoutL_0.175.pdf)
+![Amalia, layout only, shear 0.175](layouts/AmaliaLayoutL_0.175.pdf)
 
-![Amalia, layout only, shear 0.275](AmaliaLayoutL_0.275.pdf)
+![Amalia, layout only, shear 0.275](layouts/AmaliaLayoutL_0.275.pdf)
 
 ### Sequential Optimization
 
-![Amalia, sequential design then layout, shear 0.075](AmaliaLayoutS_0.075.pdf)
+![Amalia, sequential design then layout, shear 0.075](layouts/AmaliaLayoutS_0.075.pdf)
 
-![Amalia, sequential design then layout, shear 0.175](AmaliaLayoutS_0.175.pdf)
+![Amalia, sequential design then layout, shear 0.175](layouts/AmaliaLayoutS_0.175.pdf)
 
-![Amalia, sequential design then layout, shear 0.275](AmaliaLayoutS_0.275.pdf)
+![Amalia, sequential design then layout, shear 0.275](layouts/AmaliaLayoutS_0.275.pdf)
 
 ### Couple Optimization
 
-![Amalia, coupled design and layout, shear 0.075](AmaliaLayoutALL1_0.075.pdf)
+![Amalia, coupled design and layout, shear 0.075](layouts/AmaliaLayoutALL1_0.075.pdf)
 
-![Amalia, coupled design and layout, shear 0.175](AmaliaLayoutALL1_0.175.pdf)
+![Amalia, coupled design and layout, shear 0.175](layouts/AmaliaLayoutALL1_0.175.pdf)
 
-![Amalia, coupled design and layout, shear 0.275](AmaliaLayoutALL1_0.275.pdf)
+![Amalia, coupled design and layout, shear 0.275](layouts/AmaliaLayoutALL1_0.275.pdf)
 
 ### Couple Optimization with 2 Groups
 
-![Amalia, coupled design and layout with 2 different turbine designs, shear 0.075](AmaliaLayoutALL2_0.075.pdf)
+![Amalia, coupled design and layout with 2 different turbine designs, shear 0.075](layouts/AmaliaLayoutALL2_0.075.pdf)
 
-![Amalia, coupled design and layout with 2 different turbine designs, shear 0.175](AmaliaLayoutALL2_0.175.pdf)
+![Amalia, coupled design and layout with 2 different turbine designs, shear 0.175](layouts/AmaliaLayoutALL2_0.175.pdf)
 
-![Amalia, coupled design and layout with 2 different turbine designs, shear 0.275](AmaliaLayoutALL2_0.275.pdf)
+![Amalia, coupled design and layout with 2 different turbine designs, shear 0.275](layouts/AmaliaLayoutALL2_0.275.pdf)
 
 
 
