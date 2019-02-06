@@ -1,1 +1,1 @@
-![Alt Text](lay.gif| width=100)
+![Alt Text](lay.gif=250x250)
