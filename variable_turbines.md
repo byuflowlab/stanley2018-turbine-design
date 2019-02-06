@@ -1,1 +1,1 @@
-![Alt Text](lay.gif)
+![Alt Text](lay.gif| width=100)
