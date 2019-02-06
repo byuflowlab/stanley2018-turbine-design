@@ -1,1 +1,1 @@
-![Alt Text](opt-coe-aep.gif)
+![Alt Text](lay.gif)
