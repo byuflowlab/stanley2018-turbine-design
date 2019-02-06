@@ -11,4 +11,4 @@ Our results indicate that there can be significant benefits to building wind far
 
 Check out the full paper [here!](https://www.wind-energ-sci.net/4/99/2019/wes-4-99-2019.html)
 
-Also take a look at another paper of ours that recently got published about wind farms with turbines that are different heights [here.](https://onlinelibrary.wiley.com/doi/full/10.1002/we.2310)
+Also take a look at another paper of ours that recently got published about wind farms with turbines that are different heights [here.](https://rdcu.be/blkdh)
