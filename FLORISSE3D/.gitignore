@@ -9,6 +9,8 @@ investigate/*
 *.log
 *.gz
 *.gif
+*.DS_Store
+*.pagelist
 
 #Ignore the frames folder
 frames/
