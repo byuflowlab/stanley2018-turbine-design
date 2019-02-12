@@ -1,7 +1,10 @@
 # Coupled Wind Turbine Design and Layout Optimization
 ![Alt Text](/FLORISSE3D/src/FLORISSE3D/optAlturas/vid_f/small7b.gif)
 
-One area that our lab specializes in is wind farm optimization. Wind turbines remove momentum from the air as it passes by, leaving a region of slow moving air behind them (known as a wake). In a wind farm, power production can suffer if the turbines are built in poor locations that are heavily waked. In the past, this has been accounted for with layout optimization (finding the best locations to build the wind turbines to maximize power productiona) and active turbine control (decreasing the power production of some individual turbines to leave momentum in the wind and benefit the farm as a whole).
+One area that our lab specializes in is wind farm optimization. Wind turbines remove momentum from the air as it passes by, leaving a region of slow moving air behind them (known as a wake). In a wind farm, power production can suffer if the turbines are built in poor locations that are heavily waked. In the past, this has been accounted for with layout optimization (finding the best locations to build the wind turbines to maximize power production) and active turbine control (decreasing the power production of some individual turbines to leave momentum in the wind and benefit the farm as a whole).
+
+Over the past few years we have been researching a third way to decrease turbine waking and increase power production: designing the wind turbines and the wind farm at the same time. Currently wind turbines and wind farms are designed sequentially, meaning a wind turbine is optimized for some wind conditions, then that turbine is used throughout an entire wind farm. We have found that the cost of energy in a wind farm can be significantly decreased by optimizing the wind turbine design at the same time as the wind farm layout.
+
 
 
 In this study, we have discovered that wind farms can be significantly improved by designing wind turbines and the wind farms where they will operate at the same time! Specifically, there are many situations where having different wind turbine designs in the same farm results in higher energy production and lower cost of energy. Because of the difference in turbine height and rotor diameter, turbines in one group have minimal interactions with the turbines from the other group. 
