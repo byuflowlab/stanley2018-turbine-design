@@ -1,5 +1,5 @@
 # Coupled Wind Turbine Design and Layout Optimization
-![Alt Text](/FLORISSE3D/src/FLORISSE3D/optAlturas/vid_f/video3.mp4)
+![Alt Text](/FLORISSE3D/src/FLORISSE3D/optAlturas/vid_f/small7b.gif)
 
 In this study, we have discovered that wind farms can be significantly improved by designing wind turbines and the wind farms where they will operate at the same time! Specifically, there are many situations where having different wind turbine designs in the same farm results in higher energy production and lower cost of energy. Because of the difference in turbine height and rotor diameter, turbines in one group have minimal interactions with the turbines from the other group. 
 
