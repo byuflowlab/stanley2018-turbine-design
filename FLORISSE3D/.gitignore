@@ -2,6 +2,13 @@
 *old*
 *.out
 investigate/*
+*.png
+*.aux
+*.bbl
+*.blg
+*.log
+*.gz
+*.gif
 
 #Ignore the frames folder
 frames/
